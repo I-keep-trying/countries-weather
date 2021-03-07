@@ -1,0 +1,5 @@
+/node_modules
+.env
+email.txt
+users.json
+weather.json
