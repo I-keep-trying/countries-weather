@@ -23,14 +23,14 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('')
   const [input, setInput] = useState('')
 
-  const filteredCountries = countriesList.filter(country => {
-    return country.name.toLowerCase().startsWith(searchTerm.toLowerCase())
-      ? country
-      : null
+  const filteredCountries = countriesList.filter(c => {
+    return c.name.toLowerCase().startsWith(searchTerm.toLowerCase()) ? c : null
   })
-
+  console.log('filteredCountries', filteredCountries)
+  console.log('country', country)
   useEffect(() => {
     if (filteredCountries.length === 1) {
+      setCountries(filteredCountries)
       axios
         .get(
           `https://restcountries.eu/rest/v2/name/${filteredCountries[0].name}`
@@ -54,36 +54,30 @@ function App() {
 
   const handleSubmit = e => {
     e.preventDefault()
-    setCountry([])
-
+    //  setCountry([])
+    console.log('input', input)
     setSearchTerm(input)
     setInput('')
   }
-
+  console.log('countries', countries)
+  console.log('filteredCountries', filteredCountries)
+  console.log('country', country)
   const content = () => {
-    if (countries.length > 10 && !searchTerm) {
+    if (filteredCountries.length > 10 && !searchTerm) {
       return (
         <>
           {countriesList.map(c => {
-            return <Tr key={c.name}>{c.name} </Tr>
+            return <Tr key={c.name}>{c.name}</Tr>
           })}{' '}
         </>
       )
-    } else if (countries.length === 0) {
-      return <div>No matches, try again</div>
-    } else if (countries.length > 10 && searchTerm) {
-      return <div>More than 10 results, please adjust criteria</div>
-    } else if (
-      filteredCountries.length === 1 &&
-      country !== undefined &&
-      country.length > 0
-    ) {
-      return (
-        <div>
-          <CountryDetail key={country.name} country={country[0]} />
-        </div>
-      )
-    } else {
+    } else if (filteredCountries.length === 0) {
+      return <Tr>No matches, try again</Tr>
+    } else if (filteredCountries.length > 10 && searchTerm) {
+      return <Tr>More than 10 results, please adjust criteria</Tr>
+    } else if (countries.length === 1) {
+      return <CountryDetail key={country.name} country={country[0]} />
+    } else if (filteredCountries.length > 0 && filteredCountries.length < 10) {
       return countries.map(c => {
         const handleShow = () => {
           setSearchTerm(c.name)
@@ -114,7 +108,7 @@ function App() {
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
           <VStack spacing={8}>
-            <Table>
+            <Table id="table">
               <Tbody>{content()}</Tbody>
             </Table>
           </VStack>

@@ -31,8 +31,6 @@ const CountryDetail = ({ country }) => {
   //const url = `https://jsonplaceholder.typicode.com/users`
   /* TRY!!!! SHIFT + ESCAPE to abort requests */
 
-  const prevStamp = window.localStorage.getItem(`weather - timestamp`)
-  const diff = +new Date() - prevStamp
   const unitM =
     unit ===
     window.localStorage.getItem(`weather - ${country.alpha2Code} - metric`)
@@ -43,37 +41,9 @@ const CountryDetail = ({ country }) => {
     country.alpha2Code ===
     window.localStorage.getItem(`weather - ${country.alpha2Code} - countryId`)
 
-  /*   const fetchWeather = url => {
-    axios.get(url).then(response => {
-      // const timestamp = +new Date()
-      // window.localStorage.setItem(`weather - timestamp`, timestamp)
-
-      setWeather(response.data)
-      // if (window.localStorage.getItem)
-      console.log('window.localStorage', window.localStorage)
-
-      window.localStorage.setItem(
-        `weather - ${country.alpha2Code} - countryId`,
-        country.alpha2Code
-      )
-      if (unit === 'metric') {
-        window.localStorage.setItem(
-          `weather - ${country.alpha2Code} - metric`,
-          unit
-        )
-      } else if (unit === 'imperial') {
-        window.localStorage.setItem(
-          `weather - ${country.alpha2Code} - imperial`,
-          unit
-        )
-      }
-      setIsLoading(false)
-    }, 1000)
-  } */
 
   useEffect(() => {
     const url = `http://api.openweathermap.org/data/2.5/weather?lat=${country.latlng[0]}&lon=${country.latlng[1]}&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
-    // const url2 = `http://api.openweathermap.org/data/2.5/weather?lat=33&lon=65&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
     //const url = `https://jsonplaceholder.typicode.com/users`
 
     if (!countryId) {
@@ -83,7 +53,6 @@ const CountryDetail = ({ country }) => {
           `weather data for ${country.name}`,
           JSON.stringify(response.data)
         )
-        console.log('window.localStorage', window.localStorage)
 
         window.localStorage.setItem(
           `weather - ${country.alpha2Code} - countryId`,
@@ -112,6 +81,7 @@ const CountryDetail = ({ country }) => {
           `weather - ${country.alpha2Code} - metric`,
           unit
         )
+        setIsLoading(false)
       }
       if (unitI && unit === 'imperial') {
         setWeather(useWeather)
@@ -119,6 +89,7 @@ const CountryDetail = ({ country }) => {
           `weather - ${country.alpha2Code} - imperial`,
           unit
         )
+        setIsLoading(false)
       }
       if ((unit === 'metric' && !unitM) || (unit === 'imperial' && !unitI)) {
         axios.get(url).then(response => {
@@ -147,22 +118,9 @@ const CountryDetail = ({ country }) => {
         }, 1000)
       }
     }
-    setTimeout(
-      () => {
-        window.localStorage.removeItem(`weather data for ${country.name}`)
-        window.localStorage.removeItem(
-          `weather - ${country.alpha2Code} - countryId`
-        )
-        window.localStorage.removeItem(
-          `weather - ${country.alpha2Code} - metric`
-        )
-        window.localStorage.removeItem(
-          `weather - ${country.alpha2Code} - imperial`
-        )
-      },
-      //3600000
-      9000
-    )
+    setTimeout(() => {
+      window.localStorage.clear()
+    }, 3600000)
   }, [country, unit])
 
   const weatherContainer = () => {
@@ -196,11 +154,11 @@ https://en.wikipedia.org/wiki/Endonym_and_exonym
               <Box textAlign="center">
                 <Heading>{country.name} </Heading>
               </Box>
-              <Table>
+              <Table id="table" >
                 <Thead>
                   <Tr>
                     <Th>
-                      <Link
+                      {/* <Link
                         href="https://en.wikipedia.org/wiki/Endonym_and_exonym"
                         isExternal
                       >
@@ -220,13 +178,13 @@ https://en.wikipedia.org/wiki/Endonym_and_exonym
                           Endonym
                         </Tooltip>
                         <ExternalLinkIcon mx="2px" />
-                      </Link>
+                      </Link> */}
                     </Th>
                     <Th>Capital</Th>
                     <Th isNumeric>Population</Th>
                   </Tr>
                 </Thead>
-                <Tbody>
+                <Tbody id="table" >
                   <Tr>
                     <Td>{country.nativeName}</Td>
                     <Td>{country.capital}</Td>
@@ -235,7 +193,7 @@ https://en.wikipedia.org/wiki/Endonym_and_exonym
                 </Tbody>
               </Table>
 
-              <Table mb={4} size="sm">
+              <Table id="table" mb={4} size="sm">
                 <Thead>
                   <Tr>
                     <Th>Languages</Th>
