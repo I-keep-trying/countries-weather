@@ -1,13 +1,9 @@
-## Basic Bare Bones CRA + Chakra
 
-### Features:
+## Built on my own 'Basic Bare Bones CRA + Chakra' repo
 
-### - light/dark theme toggle
+## Country lookup + weather
 
-### - responsive navigation
+## Only 1 request to the countries api when a single country is selected
 
-### - disappear-on-scroll header
+## 
 
-### - fixed footer
-
-### - eslint with `jsx-a11y/recommended`

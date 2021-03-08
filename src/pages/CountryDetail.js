@@ -19,10 +19,11 @@ import {
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import axios from 'axios'
+import moment from 'moment'
+import twix from 'twix'
 import Weather from '../components/Weather'
 
 const CountryDetail = ({ country }) => {
-  console.log('country', country)
   const [isLoading, setIsLoading] = useState(true)
   const [weather, setWeather] = useState({})
   const [unit, setUnit] = useState('metric')
@@ -30,13 +31,138 @@ const CountryDetail = ({ country }) => {
   //const url = `https://jsonplaceholder.typicode.com/users`
   /* TRY!!!! SHIFT + ESCAPE to abort requests */
 
-  useEffect(() => {
-    const url2 = `http://api.openweathermap.org/data/2.5/weather?lat=${country.latlng[0]}&lon=${country.latlng[1]}&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
+  const prevStamp = window.localStorage.getItem(`weather - timestamp`)
+  const diff = +new Date() - prevStamp
+  const unitM =
+    unit ===
+    window.localStorage.getItem(`weather - ${country.alpha2Code} - metric`)
+  const unitI =
+    unit ===
+    window.localStorage.getItem(`weather - ${country.alpha2Code} - imperial`)
+  const countryId =
+    country.alpha2Code ===
+    window.localStorage.getItem(`weather - ${country.alpha2Code} - countryId`)
 
-    axios.get(url2).then(response => {
+  /*   const fetchWeather = url => {
+    axios.get(url).then(response => {
+      // const timestamp = +new Date()
+      // window.localStorage.setItem(`weather - timestamp`, timestamp)
+
       setWeather(response.data)
+      // if (window.localStorage.getItem)
+      console.log('window.localStorage', window.localStorage)
+
+      window.localStorage.setItem(
+        `weather - ${country.alpha2Code} - countryId`,
+        country.alpha2Code
+      )
+      if (unit === 'metric') {
+        window.localStorage.setItem(
+          `weather - ${country.alpha2Code} - metric`,
+          unit
+        )
+      } else if (unit === 'imperial') {
+        window.localStorage.setItem(
+          `weather - ${country.alpha2Code} - imperial`,
+          unit
+        )
+      }
       setIsLoading(false)
     }, 1000)
+  } */
+
+  useEffect(() => {
+    const url = `http://api.openweathermap.org/data/2.5/weather?lat=${country.latlng[0]}&lon=${country.latlng[1]}&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
+    // const url2 = `http://api.openweathermap.org/data/2.5/weather?lat=33&lon=65&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
+    //const url = `https://jsonplaceholder.typicode.com/users`
+
+    if (!countryId) {
+      axios.get(url).then(response => {
+        setWeather(response.data)
+        window.localStorage.setItem(
+          `weather data for ${country.name}`,
+          JSON.stringify(response.data)
+        )
+        console.log('window.localStorage', window.localStorage)
+
+        window.localStorage.setItem(
+          `weather - ${country.alpha2Code} - countryId`,
+          country.alpha2Code
+        )
+        if (unit === 'metric') {
+          window.localStorage.setItem(
+            `weather - ${country.alpha2Code} - metric`,
+            unit
+          )
+        } else if (unit === 'imperial') {
+          window.localStorage.setItem(
+            `weather - ${country.alpha2Code} - imperial`,
+            unit
+          )
+        }
+        setIsLoading(false)
+      }, 1000)
+    } else {
+      const useWeather = JSON.parse(
+        window.localStorage.getItem(`weather data for ${country.name}`)
+      )
+      if (unitM && unit === 'metric') {
+        setWeather(useWeather)
+        window.localStorage.setItem(
+          `weather - ${country.alpha2Code} - metric`,
+          unit
+        )
+      }
+      if (unitI && unit === 'imperial') {
+        setWeather(useWeather)
+        window.localStorage.setItem(
+          `weather - ${country.alpha2Code} - imperial`,
+          unit
+        )
+      }
+      if ((unit === 'metric' && !unitM) || (unit === 'imperial' && !unitI)) {
+        axios.get(url).then(response => {
+          setWeather(response.data)
+          window.localStorage.setItem(
+            `weather data for ${country.name}`,
+            JSON.stringify(response.data)
+          )
+
+          window.localStorage.setItem(
+            `weather - ${country.alpha2Code} - countryId`,
+            country.alpha2Code
+          )
+          if (unit === 'metric') {
+            window.localStorage.setItem(
+              `weather - ${country.alpha2Code} - metric`,
+              unit
+            )
+          } else if (unit === 'imperial') {
+            window.localStorage.setItem(
+              `weather - ${country.alpha2Code} - imperial`,
+              unit
+            )
+          }
+          setIsLoading(false)
+        }, 1000)
+      }
+    }
+    setTimeout(
+      () => {
+        window.localStorage.removeItem(`weather data for ${country.name}`)
+        window.localStorage.removeItem(
+          `weather - ${country.alpha2Code} - countryId`
+        )
+        window.localStorage.removeItem(
+          `weather - ${country.alpha2Code} - metric`
+        )
+        window.localStorage.removeItem(
+          `weather - ${country.alpha2Code} - imperial`
+        )
+      },
+      //3600000
+      9000
+    )
   }, [country, unit])
 
   const weatherContainer = () => {

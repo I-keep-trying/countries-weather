@@ -78,6 +78,7 @@ export const Navbar = ({ input, handleChange, handleSubmit }) => {
         wrap="wrap"
         w="100%"
         h="10%"
+         shadow="base"
       >
         <Box ml={4}>
           <Heading
@@ -100,13 +101,14 @@ export const Navbar = ({ input, handleChange, handleSubmit }) => {
           <ThemeToggle />
         </Box>
       </Flex>
-      <Box w="100%">
+      {/* <Box w="100%">
         <Skeleton
           startColor={useColorModeValue('#A0AEC0', '#000000')}
           endColor={useColorModeValue('#000000', '#718096')}
-          height="14px"
+          height="1px"
         />
-      </Box>
+      </Box> */}
+      
     </>
   )
 }

@@ -22,13 +22,13 @@ function App() {
   const [country, setCountry] = useState([])
   const [searchTerm, setSearchTerm] = useState('')
   const [input, setInput] = useState('')
-  
+
   const filteredCountries = countriesList.filter(country => {
     return country.name.toLowerCase().startsWith(searchTerm.toLowerCase())
       ? country
       : null
   })
-  
+
   useEffect(() => {
     if (filteredCountries.length === 1) {
       axios
@@ -63,11 +63,11 @@ function App() {
   const content = () => {
     if (countries.length > 10 && !searchTerm) {
       return (
-        <div>
+        <>
           {countriesList.map(c => {
-            return <div key={c.name}>{c.name} </div>
+            return <Tr key={c.name}>{c.name} </Tr>
           })}{' '}
-        </div>
+        </>
       )
     } else if (countries.length === 0) {
       return <div>No matches, try again</div>
@@ -90,12 +90,14 @@ function App() {
         }
 
         return (
-          <div key={c.name}>
-            {c.name}
-            <Button onClick={handleShow} text="show">
-              details
-            </Button>
-          </div>
+          <Tr key={c.name}>
+            <Td>{c.name}</Td>
+            <Td isNumeric>
+              <Button onClick={handleShow} text="show">
+                details
+              </Button>
+            </Td>
+          </Tr>
         )
       })
     }
@@ -109,17 +111,15 @@ function App() {
         handleChange={handleChange}
         handleSubmit={handleSubmit}
       />
-      {content()}
-      {/*  <Box textAlign="center" fontSize="xl">
+      <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
           <VStack spacing={8}>
-            {content()}
             <Table>
-              <Tbody></Tbody>
+              <Tbody>{content()}</Tbody>
             </Table>
           </VStack>
         </Grid>
-      </Box> */}
+      </Box>
       <Footer />
     </div>
   )

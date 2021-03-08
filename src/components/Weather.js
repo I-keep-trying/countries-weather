@@ -90,6 +90,7 @@ function DetailsList({ weather, feels, wind, hum, press }) {
 }
 
 function WeatherWidget({ weather, unit, setUnit }) {
+ // console.log('weather Weather component', weather)
   const code = weather.weather[0].icon
   const icon = Images[code].path
   const alt = Images[code].alt
