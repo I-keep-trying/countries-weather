@@ -158,7 +158,7 @@ https://en.wikipedia.org/wiki/Endonym_and_exonym
                 <Thead>
                   <Tr>
                     <Th>
-                      {/* <Link
+                      <Link
                         href="https://en.wikipedia.org/wiki/Endonym_and_exonym"
                         isExternal
                       >
@@ -178,7 +178,7 @@ https://en.wikipedia.org/wiki/Endonym_and_exonym
                           Endonym
                         </Tooltip>
                         <ExternalLinkIcon mx="2px" />
-                      </Link> */}
+                      </Link>
                     </Th>
                     <Th>Capital</Th>
                     <Th isNumeric>Population</Th>
@@ -193,7 +193,7 @@ https://en.wikipedia.org/wiki/Endonym_and_exonym
                 </Tbody>
               </Table>
 
-              <Table id="table" mb={4} size="sm">
+              <Table mb={4} size="sm">
                 <Thead>
                   <Tr>
                     <Th>Languages</Th>

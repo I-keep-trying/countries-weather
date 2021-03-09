@@ -1,25 +1,29 @@
 import React, { useState, useEffect } from 'react'
-import {
-  Box,
-  VStack,
-  Grid,
-  Button,
-  Table,
-  Tbody,
-  Tr,
-  Td,
-  Container,
-} from '@chakra-ui/react'
 import axios from 'axios'
-import CountryDetail from './pages/CountryDetail'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import countriesList from './countriesList'
 
-/*  axios.get('https://restcountries.eu/rest/v2/all').then(response => {
-      console.log('response.data', response.data)
-      setCountries(response.data)
-    }) */
+const countriesList = [
+  { name: 'Afghanistan' },
+  { name: 'Åland Islands' },
+  { name: 'Albania' },
+  { name: 'Algeria' },
+  { name: 'American Samoa' },
+  { name: 'Andorra' },
+  { name: 'Angola' },
+]
+
+const Header = ({ input, handleChange, handleSubmit }) => {
+  return (
+    <form onSubmit={handleSubmit}>
+      Input:{' '}
+      <input
+        style={{ border: '1px solid blue' }}
+        type="text"
+        value={input}
+        onChange={handleChange}
+      />
+    </form>
+  )
+}
 
 function App() {
   const [countries, setCountries] = useState(countriesList)
@@ -27,18 +31,6 @@ function App() {
   const [input, setInput] = useState('')
 
   console.log('countries global', countries)
-  /*   useEffect(() => {
-    countries.filter(country => {
-      return country.name.toLowerCase().startsWith(searchTerm.toLowerCase())
-        ? country
-        : null
-    })
-  }, []) */
-  const filteredCountries = countries.filter(country => {
-    return country.name.toLowerCase().startsWith(searchTerm.toLowerCase())
-      ? country
-      : null
-  })
 
   const handleChange = event => {
     event.preventDefault()
@@ -51,6 +43,12 @@ function App() {
     setInput('')
   }
 
+  const filteredCountries = countries.filter(country => {
+    return country.name.toLowerCase().startsWith(searchTerm.toLowerCase())
+      ? country
+      : null
+  })
+
   const countryDetail = () => {
     return filteredCountries.map(country => {
       return (
@@ -58,6 +56,15 @@ function App() {
           Name: {country.name} Capital: {country.capital}
         </div>
       )
+    })
+  }
+
+  const apiCall = country => {
+    console.log('api call props ', country)
+    //https://restcountries.eu/rest/v2/name/{country.name}
+    axios.get('https://jsonplaceholder.typicode.com/users').then(response => {
+      console.log('response.data', response.data)
+      setCountries(response.data)
     })
   }
 
@@ -78,7 +85,7 @@ function App() {
     } else if (filteredCountries.length > 10 && searchTerm) {
       return <div>More than 10 results, please adjust criteria</div>
     } else if (filteredCountries.length === 1) {
-      return countryDetail()
+      return apiCall(filteredCountries[0])
     } else {
       return filteredCountries.map(country => {
         const handleShow = () => {
@@ -88,7 +95,9 @@ function App() {
         return (
           <div key={country.alpha2Code}>
             {country.name}
-            <Button onClick={handleShow} text="show" />
+            <button onClick={handleShow} text="show">
+              details
+            </button>
           </div>
         )
       })
@@ -104,28 +113,8 @@ function App() {
         handleSubmit={handleSubmit}
       />
       <div>{content()}</div>
-      <Footer />
     </div>
   )
 }
 
 export default App
-/* 
-   <Header
-        input={input}
-        searchTerm={searchTerm}
-        handleChange={handleChange}
-        handleSubmit={handleSubmit}
-      />
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <VStack spacing={8}>
-            <Table id="table">
-              <Tbody>{content()}</Tbody>
-            </Table>
-          </VStack>
-        </Grid>
-      </Box>
-      <Footer /> 
-
- */

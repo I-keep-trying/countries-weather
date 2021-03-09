@@ -6,7 +6,7 @@ export const NamesContainer1 = ({ list }) => {
     <>
       {list.countries.map(country => {
         return <option>{country.name}</option>
-      })}{' '}
+      })}
     </>
   )
 }

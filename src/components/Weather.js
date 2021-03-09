@@ -90,7 +90,7 @@ function DetailsList({ weather, feels, wind, hum, press }) {
 }
 
 function WeatherWidget({ weather, unit, setUnit }) {
- // console.log('weather Weather component', weather)
+  // console.log('weather Weather component', weather)
   const code = weather.weather[0].icon
   const icon = Images[code].path
   const alt = Images[code].alt
@@ -128,7 +128,6 @@ function WeatherWidget({ weather, unit, setUnit }) {
         <HStack spacing={0}>
           <Box whiteSpace="nowrap" w="40%" p={1}>
             <Container>
-              {' '}
               <Text fontSize="50px" as="strong">
                 {Math.round(weather.main.temp)}
                 <Text as="sup">°</Text>

@@ -16,11 +16,15 @@ const ToggleUnit = ({ setUnit }) => {
 
   return (
     <>
-      <Container id="card container" pl={0} ml={0} mb={3} >
+      <Container id="card container" pl={0} ml={0} mb={3}>
         <HStack ml={0}>
-          <Text><strong>C</strong> </Text>{' '}
+          <Text>
+            <strong>C</strong>{' '}
+          </Text>
           <Switch onChange={onToggle} colorScheme="whiteAlpha" size="lg" />
-          <Text><strong>F</strong></Text>
+          <Text>
+            <strong>F</strong>
+          </Text>
         </HStack>
       </Container>
     </>
