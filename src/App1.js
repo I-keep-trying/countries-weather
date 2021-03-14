@@ -1,67 +1,153 @@
-import React, { useState } from 'react'
-import Select from 'react-select';
+import React, { useState, useEffect, useRef } from 'react'
 import {
-  FormControl,
-  FormLabel,
-  FormErrorMessage,
-  FormHelperText,
-  //Select
+  Table,
+  Thead,
+  Tbody,
+  Tfoot,
+  Tr,
+  Th,
+  Td,
+  Button,
+  Box,
+  Grid,
+  VStack,
+  HStack,
+  Container,
+  Link,
+  Tooltip,
+  Heading,
+  Text,
+  Image,
 } from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
+import axios from 'axios'
+import countriesList from './countriesList'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Countries from './pages/Countries'
+import ErrorBoundary from './ErrorBoundary'
+import { nanoid } from 'nanoid'
+
 import './App.css'
 
-import { NamesContainer1 } from './NamesContainer'
-import countriesList from './countriesList'
+export const Country = ({ country, isLoading }) => {
+  return !isLoading ? (
+    <>
+      <Container centerContent mt={100} mb={10}>
+        <Box textAlign="left" borderRadius="20px" borderWidth="3px" shadow="md">
+          <Container p={0}>
+            <VStack spacing={4}>
+              <Image
+                borderTopLeftRadius="20px"
+                borderTopRightRadius="20px"
+                src={country.flag}
+                alt="country flag"
+              />
+              <Box textAlign="center">
+                <Heading>{country.name}</Heading>
+              </Box>
+              <Table id="table1">
+                <Thead id="Thead1">
+                  <Tr id="Tr1">
+                    <Th id="Th1">
+                      <Link
+                        href="https://en.wikipedia.org/wiki/Endonym_and_exonym"
+                        isExternal
+                      >
+                        <Tooltip
+                          label={
+                            <Text as="i" color="gray.500">
+                              An endonym (from Greek: éndon, `&#39;`inner`&#39;`
+                              + ónoma, `&#39;`name`&#39;`; also known as
+                              autonym) is a common, internal name for a
+                              geographical place, group of people, or a
+                              language/dialect, that is used only inside that
+                              particular place, group, or linguistic community.
+                            </Text>
+                          }
+                          aria-label="An endonym (from Greek: éndon, 'inner' + ónoma, 'name'; also known as autonym) is a common, internal name for a geographical place, group of people, or a language/dialect, that is used only inside that particular place, group, or linguistic community."
+                        >
+                          Endonym
+                        </Tooltip>
+                        <ExternalLinkIcon mx="2px" />
+                      </Link>
+                    </Th>
+                    <Th>Capital</Th>
+                    <Th isNumeric>Population</Th>
+                  </Tr>
+                </Thead>
+
+                <Tbody id="Tbody1">
+                  <Tr id="Tr1">
+                    <Td id="Td1">{country.nativeName}</Td>
+                    <Td>{country.capital}</Td>
+                    <Td isNumeric>{country.population.toLocaleString()}</Td>
+                  </Tr>
+                </Tbody>
+              </Table>
+              <Table id="table2" mb={4} size="sm">
+                <Thead id="Thead2">
+                  <Tr id="Tr2">
+                    <Th id="Th2">Languages</Th>
+                  </Tr>
+                </Thead>
+
+                <Tbody id="Tbody2">
+                  {country.languages.map(lang => (
+                    <Tr id="Tr2" key={lang.name}>
+                      <Td id="Td2">{lang.name}</Td>
+                    </Tr>
+                  ))}
+                </Tbody>
+              </Table>
+            </VStack>
+          </Container>
+        </Box>
+      </Container>
+    </>
+  ) : (
+    <Text>Loading... </Text>
+  )
+}
 
 const App = () => {
- 
-  const [list, setList] = useState({
-    countries: countriesList,
-    searchTerm: '',
-  })
+  const [countries, setCountries] = useState(countriesList)
+  const [input, setInput] = useState('')
+  const [searchTerm, setSearchTerm] = useState('')
 
-  console.log('list global', list)
+  /*   const filteredCountries = countries.filter(c =>
+    c.name.toLowerCase().startsWith(searchTerm.toLowerCase())
+  ) */
 
-  const editSearchTerm1 = e => {
-    setList({ ...list, searchTerm: e.target.value })
+  const filteredCountries = countries.filter(c =>
+    c.name.toLowerCase().startsWith(input.toLowerCase())
+  )
+
+  const handleChange = event => {
+    setInput(event.target.value)
   }
 
-  const dynamicSearch1 = () => {
-    console.log('list dynamicSearch', list)
-    return {
-      ...list,
-      countries: list.countries.filter(name => {
-        console.log('name?', name)
-        return name.name.toLowerCase().includes(list.searchTerm.toLowerCase())
-      }),
-    }
-  }
+  /*   const handleSubmit = e => {
+    e.preventDefault()
+    setSearchTerm(input)
+    setInput('')
+  } */
 
-  const handleChange = selectedOption => {
-    setSelectedOption(selectedOption);
-    console.log(`Option selected:`, selectedOption);
-  };
-  
   return (
-    <div style={{ textAlign: 'center', paddingTop: '30vh' }}>
-     
-      
-<FormControl id="country">
-  <FormLabel>Country</FormLabel>
-  <Select placeholder="Select country">
-   <NamesContainer1 list={dynamicSearch1()} />
-  </Select>
-</FormControl>
-
-     {/*  <input
-        type="text"
-        value={list.searchTerm}
-        onChange={editSearchTerm1}
-        placeholder="Search for a country!"
+    <>
+      <Header
+        input={input}
+        // searchTerm={searchTerm}
+        handleChange={handleChange}
+        //  handleSubmit={handleSubmit}
       />
-      <br></br>
-      <h3>Countries:</h3>
-      <NamesContainer1 list={dynamicSearch1()} /> */}
-    </div>
+
+      <Container mt={100}>
+        <Countries countries={filteredCountries} setInput={setInput} />
+      </Container>
+
+      <Footer />
+    </>
   )
 }
 

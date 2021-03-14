@@ -34,7 +34,7 @@ const overrides = {
           bgClip: 'text',
         },
         'with-gradient-dark': {
-          bgGradient: 'linear(#FFFFFF,  #2D3748, #FFFFFF)',
+          bgGradient: 'linear(#FFFFFF,  #718096, #FFFFFF)',
           bgClip: 'text',
         },
       },

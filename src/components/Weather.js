@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 import {
   Box,
   Image,
@@ -28,8 +29,7 @@ function WeatherIcon({ src, alt }) {
 function CardTitle({ title, desc, unit, setUnit }) {
   return (
     <Box id="card title">
-      <ToggleUnit ml={0} unit={unit} setUnit={setUnit} />
-      <Heading fontSize="xl">{title}</Heading>
+    <Heading fontSize="xl">{title}</Heading>
       <Text mt={4}>{desc}</Text>
     </Box>
   )
@@ -89,46 +89,31 @@ function DetailsList({ weather, feels, wind, hum, press }) {
   )
 }
 
-function WeatherWidget({ weather, unit, setUnit }) {
-  // console.log('weather Weather component', weather)
+function WeatherWidget({ country, weather, unit, setUnit }) {
   const code = weather.weather[0].icon
   const icon = Images[code].path
   const alt = Images[code].alt
-  const date = moment.unix(weather.dt).format('YYYY-MM-DD')
+  const date = moment.unix(weather.dt).format('YYYY-MM-DD, h:mm a')
+
   return (
     <>
-      <Box
-        id="weather container"
-        borderRadius="20px"
-        borderWidth="3px"
-        m={3}
-        shadow="md"
-        minWidth={350}
-      >
-        <VStack
-          borderTopLeftRadius="20px"
-          borderTopRightRadius="20px"
-          className="widget-right--brown"
-          spacing={0}
-          align="stretch"
-        >
-          <HStack spacing={0}>
+      <Box id="weather container" borderRadius="20px" shadow="md" w="100%">
+       <Heading textAlign="center" fontSize="xl">{`Weather in ${country.name}`}</Heading>
+        <VStack className="widget-right--brown" spacing={0} align="stretch">
+          <HStack id="hstack" spacing={0}>
+          
             <Container>
-              <CardTitle
-                setUnit={setUnit}
-                unit={unit}
-                title={`Weather in ${weather.name}`}
-                desc={weather.weather[0].description}
-              />
+              <ToggleUnit country={country} ml={0} unit={unit} setUnit={setUnit} />
+              <Text>{weather.weather[0].description}</Text>
             </Container>
             <WeatherIcon src={icon} alt={alt} />
           </HStack>
         </VStack>
 
         <HStack spacing={0}>
-          <Box whiteSpace="nowrap" w="40%" p={1}>
-            <Container>
-              <Text fontSize="50px" as="strong">
+          <Box whiteSpace="nowrap" w="40%" p={0}>
+            <Container textAlign="center">
+              <Text fontSize="70px" as="strong">
                 {Math.round(weather.main.temp)}
                 <Text as="sup">°</Text>
                 {unit === 'metric' ? 'C' : 'F'}
@@ -155,7 +140,7 @@ function WeatherWidget({ weather, unit, setUnit }) {
           className="widget-right--brown"
         >
           <Container textAlign="right" spacing={0}>
-            <Text fontSize="14px">{date} </Text>
+            <Text fontSize="14px">Reported: {date} </Text>
           </Container>
         </HStack>
       </Box>

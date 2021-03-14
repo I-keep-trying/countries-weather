@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import {
   IconButton,
   useColorMode,
@@ -12,9 +12,12 @@ import {
   Spacer,
   Center,
   Input,
+  Tooltip,
+  Text,
+  InputRightElement,
+  InputGroup,
 } from '@chakra-ui/react'
-import { SunIcon, MoonIcon } from '@chakra-ui/icons'
-import Filter from './Filter'
+import { SunIcon, MoonIcon, SearchIcon } from '@chakra-ui/icons'
 //import '../index.css'
 
 export const ThemeToggle = () => {
@@ -40,7 +43,35 @@ export const ThemeToggle = () => {
   )
 }
 
-export const Navbar = ({ input, handleChange, handleSubmit }) => {
+const Filter = ({ input, onSubmit, onChange }) => {
+  const inputRef = useRef()
+
+  useEffect(() => {
+    inputRef.current.focus()
+  })
+  console.log('inputRef', inputRef)
+  return (
+    <Box ml={6}>
+      <form onSubmit={onSubmit}>
+        <InputGroup>
+          <Input
+            ref={inputRef}
+            value={input}
+            onChange={onChange}
+            placeholder="Start typing to search"
+          />
+          <InputRightElement children={<SearchIcon />} />
+        </InputGroup>
+      </form>
+    </Box>
+  )
+}
+
+export const Navbar = ({
+  input,
+  handleChange,
+  //handleSubmit
+}) => {
   const [scrollPosition, setScrollPosition] = useState(0)
 
   const handleScroll = () => {
@@ -58,10 +89,8 @@ export const Navbar = ({ input, handleChange, handleSubmit }) => {
   }
 
   useEffect(() => {
-    //  const page = document.getElementById('page')
     const header = document.getElementById('header-wrap')
     header.style.top = '0'
-    //  page.style.top = '0'
     window.addEventListener('scroll', handleScroll, { passive: true })
     return () => {
       window.removeEventListener('scroll', handleScroll)
@@ -78,7 +107,7 @@ export const Navbar = ({ input, handleChange, handleSubmit }) => {
         wrap="wrap"
         w="100%"
         h="10%"
-         shadow="base"
+        shadow="base"
       >
         <Box ml={4}>
           <Heading
@@ -90,25 +119,34 @@ export const Navbar = ({ input, handleChange, handleSubmit }) => {
             Countries of the World
           </Heading>
         </Box>
-        <Box ml={6}>
-          <form onSubmit={handleSubmit}>
-            <Input value={input} onChange={handleChange} />
-          </form>
-        </Box>
+        <Filter
+          //onSubmit={handleSubmit}
+          input={input}
+          onChange={handleChange}
+        />
+        {/*  <Box ml={6}>
+          <Tooltip
+            label={<Text>Start typing to begin searching.</Text>}
+            aria-label="Start typing to begin searching."
+          >
+            <form onSubmit={handleSubmit}>
+              <InputGroup>
+                <Input
+                  value={input}
+                  onChange={handleChange}
+                  placeholder="Start typing to search"
+                />
+                <InputRightElement children={<SearchIcon />} />
+              </InputGroup>
+            </form>
+          </Tooltip>
+        </Box> */}
         <Spacer />
 
         <Box w="5%">
           <ThemeToggle />
         </Box>
       </Flex>
-      {/* <Box w="100%">
-        <Skeleton
-          startColor={useColorModeValue('#A0AEC0', '#000000')}
-          endColor={useColorModeValue('#000000', '#718096')}
-          height="1px"
-        />
-      </Box> */}
-      
     </>
   )
 }

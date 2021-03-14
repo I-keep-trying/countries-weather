@@ -8,7 +8,7 @@
     width="0"
     height="0">
     <defs>
-        <style type="text/css"><![CDATA[
+        <style type="text/css">
 /*
 ** CLOUDS
 */
@@ -628,7 +628,7 @@
           animation-timing-function: ease-in-out;
 }
 
-        ]]></style>
+        </style>
     </defs>
     <symbol id="thunder" viewBox="0 0 64 64">
         <g transform="translate(20,10)">

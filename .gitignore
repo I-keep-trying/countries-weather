@@ -3,3 +3,5 @@
 email.txt
 users.json
 weather.json
+/src/components/ListScrollToItemOutside.js
+/src/components/ScrollToItem.js

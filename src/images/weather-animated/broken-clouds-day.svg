@@ -8,10 +8,8 @@
     height="256"
     viewBox="0 0 64 64" >
     <defs>
-        <style type="text/css"><![CDATA[
-/*
-** CLOUDS
-*/
+        <style type="text/css">
+<!--  CLOUDS -->
 @keyframes am-weather-cloud-1 {
   0% {
     -webkit-transform: translate(-5px,0px);
@@ -652,7 +650,7 @@
           animation-timing-function: ease-in-out;
 }
 
-        ]]></style>
+        </style>
     </defs>
 
      <g id="cloudy-day-1">

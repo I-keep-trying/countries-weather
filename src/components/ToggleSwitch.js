@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { HStack, Container, Switch, Text } from '@chakra-ui/react'
 
-const ToggleUnit = ({ setUnit }) => {
+const ToggleUnit = ({ country, unit, setUnit }) => {
   const [state, setState] = useState(true)
 
   const onToggle = e => {
@@ -16,10 +16,10 @@ const ToggleUnit = ({ setUnit }) => {
 
   return (
     <>
-      <Container id="card container" pl={0} ml={0} mb={3}>
-        <HStack ml={0}>
+      <Container id="toggle units" mb={12} p={0}>
+        <HStack>
           <Text>
-            <strong>C</strong>{' '}
+            <strong>C</strong>
           </Text>
           <Switch onChange={onToggle} colorScheme="whiteAlpha" size="lg" />
           <Text>
