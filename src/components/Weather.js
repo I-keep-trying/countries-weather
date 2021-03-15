@@ -118,11 +118,12 @@ function WeatherWidget({ country, weather, unit, setUnit }) {
           <HStack id="hstack" spacing={0}>
             <Container>
               <RadioGroup onChange={setUnit} value={unit}>
-      <Stack direction="row">
-        <Radio value="metric">C</Radio>
-        <Radio value="imperial">F</Radio>
-      </Stack>
-    </RadioGroup>
+                <Stack direction="row">
+                  <Radio value="metric">C</Radio>
+                  <Radio value="imperial">F</Radio>
+                </Stack>
+              </RadioGroup>
+              <Switch onChange={setToggle} value={unit} />
               <div>{JSON.stringify(unit)} </div>
               <Text>{weather.weather[0].description}</Text>
             </Container>
