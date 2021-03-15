@@ -11,6 +11,9 @@ import {
   Text,
   Container,
   Flex,
+  Switch,
+  Radio,
+  RadioGroup,
 } from '@chakra-ui/react'
 import moment from 'moment'
 import Images from '../images/weather-animated/index'
@@ -29,7 +32,7 @@ function WeatherIcon({ src, alt }) {
 function CardTitle({ title, desc, unit, setUnit }) {
   return (
     <Box id="card title">
-    <Heading fontSize="xl">{title}</Heading>
+      <Heading fontSize="xl">{title}</Heading>
       <Text mt={4}>{desc}</Text>
     </Box>
   )
@@ -95,15 +98,32 @@ function WeatherWidget({ country, weather, unit, setUnit }) {
   const alt = Images[code].alt
   const date = moment.unix(weather.dt).format('YYYY-MM-DD, h:mm a')
 
+  const setToggle = () => {
+    if (unit === 'metric') {
+      // setUnit('imperial')
+      return true
+    } else {
+      //   setUnit('metric')
+      return false
+    }
+  }
   return (
     <>
       <Box id="weather container" borderRadius="20px" shadow="md" w="100%">
-       <Heading textAlign="center" fontSize="xl">{`Weather in ${country.name}`}</Heading>
+        <Heading
+          textAlign="center"
+          fontSize="xl"
+        >{`Weather in ${country.name}`}</Heading>
         <VStack className="widget-right--brown" spacing={0} align="stretch">
           <HStack id="hstack" spacing={0}>
-          
             <Container>
-              <ToggleUnit country={country} ml={0} unit={unit} setUnit={setUnit} />
+              <RadioGroup onChange={setUnit} value={unit}>
+      <Stack direction="row">
+        <Radio value="metric">C</Radio>
+        <Radio value="imperial">F</Radio>
+      </Stack>
+    </RadioGroup>
+              <div>{JSON.stringify(unit)} </div>
               <Text>{weather.weather[0].description}</Text>
             </Container>
             <WeatherIcon src={icon} alt={alt} />

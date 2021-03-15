@@ -1,12 +1,5 @@
 {
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaVersion": 2020,
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  }
-  /*  "extends": [
+   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
@@ -30,6 +23,10 @@
     }
   },
   "parserOptions": {
-    "sourceType": "module"
-  } */
+    "sourceType": "module",
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  }
 }

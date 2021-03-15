@@ -1,17 +1,14 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
   Table,
   Thead,
   Tbody,
-  Tfoot,
   Tr,
   Th,
   Td,
   Button,
   Box,
-  Grid,
   VStack,
-  HStack,
   Container,
   Link,
   Tooltip,
@@ -25,7 +22,6 @@ import countriesList from './countriesList'
 import Weather from './components/Weather'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import ErrorBoundary from './ErrorBoundary'
 
 import './App.css'
 
@@ -33,7 +29,8 @@ const Country = ({ country, isLoading }) => {
   const [weather, setWeather] = useState({})
   const [unit, setUnit] = useState('metric')
   const [isWeatherLoading, setIsWeatherLoading] = useState(true)
-  const [local, setLocal] = useState(false)
+
+  console.log('unit in Country component', unit)
 
   useEffect(() => {
     if (
@@ -50,7 +47,7 @@ const Country = ({ country, isLoading }) => {
       setIsWeatherLoading(false)
       setTimeout(() => {
         window.localStorage.removeItem(`${country.name} weather in metric`)
-      }, 60000)
+      }, 10000)
     } else if (
       !isLoading &&
       unit === 'imperial' &&
@@ -66,12 +63,13 @@ const Country = ({ country, isLoading }) => {
       setIsWeatherLoading(false)
       setTimeout(() => {
         window.localStorage.removeItem(`${country.name} weather in imperial`)
-      }, 60000)
+      }, 10000)
     } else {
       if (!isLoading) {
+        console.log('fetch weather')
         setIsWeatherLoading(true)
         const url = `http://api.openweathermap.org/data/2.5/weather?lat=${country.latlng[0]}&lon=${country.latlng[1]}&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
-        // const url = `http://api.openweathermap.org/data/2.5/weather?q=${country.capital},${country.alpha2Code}&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
+
         axios.get(url).then(response => {
           setWeather(response.data)
           setIsWeatherLoading(false)
@@ -155,14 +153,12 @@ const Country = ({ country, isLoading }) => {
               </Table>
 
               {!isWeatherLoading ? (
-                <ErrorBoundary id="weather">
-                  <Weather
-                    country={country}
-                    weather={weather}
-                    unit={unit}
-                    setUnit={setUnit}
-                  />
-                </ErrorBoundary>
+                <Weather
+                  country={country}
+                  weather={weather}
+                  unit={unit}
+                  setUnit={setUnit}
+                />
               ) : (
                 <Text>Weather loading...</Text>
               )}
@@ -176,8 +172,7 @@ const Country = ({ country, isLoading }) => {
   )
 }
 
-const Countries = ({ countries, setInput, ref }) => {
-  const [unit, setUnit] = useState('metric')
+const Countries = ({ countries, setInput }) => {
   const [details, setDetails] = useState({})
   const [isLoading, setIsLoading] = useState(true)
 
@@ -208,13 +203,6 @@ const Countries = ({ countries, setInput, ref }) => {
             <Tr key={c.name}>
               <Td>{c.name}</Td>
               <Td>
-                {/*   <Button
-                  size="xs"
-                  variant="ghost"
-                  onClick={() => setSearchTerm(c.name)}
-                >
-                  details
-                </Button> */}
                 <Button
                   size="xs"
                   variant="ghost"
@@ -232,15 +220,9 @@ const Countries = ({ countries, setInput, ref }) => {
 }
 
 const App = () => {
-  const [countries, setCountries] = useState(countriesList)
   const [input, setInput] = useState('')
-  const [searchTerm, setSearchTerm] = useState('')
 
-  /*   const filteredCountries = countries.filter(c =>
-    c.name.toLowerCase().startsWith(searchTerm.toLowerCase())
-  ) */
-
-  const filteredCountries = countries.filter(c =>
+  const filteredCountries = countriesList.filter(c =>
     c.name.toLowerCase().startsWith(input.toLowerCase())
   )
 
@@ -248,20 +230,9 @@ const App = () => {
     setInput(event.target.value)
   }
 
-  const handleSubmit = e => {
-    e.preventDefault()
-    setSearchTerm(input)
-    setInput('')
-  }
-
   return (
     <>
-      <Header
-        input={input}
-        searchTerm={searchTerm}
-        handleChange={handleChange}
-        handleSubmit={handleSubmit}
-      />
+      <Header input={input} handleChange={handleChange} />
       <Container mt={100}>
         <Countries countries={filteredCountries} setInput={setInput} />
       </Container>

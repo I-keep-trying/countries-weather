@@ -5,20 +5,13 @@ import {
   Box,
   Flex,
   useColorModeValue,
-  Skeleton,
-  SimpleGrid,
-  Container,
   Heading,
   Spacer,
-  Center,
   Input,
-  Tooltip,
-  Text,
   InputRightElement,
   InputGroup,
 } from '@chakra-ui/react'
 import { SunIcon, MoonIcon, SearchIcon } from '@chakra-ui/icons'
-//import '../index.css'
 
 export const ThemeToggle = () => {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -43,16 +36,20 @@ export const ThemeToggle = () => {
   )
 }
 
-const Filter = ({ input, onSubmit, onChange }) => {
+const Filter = ({
+  input,
+  //onSubmit,
+  onChange,
+}) => {
   const inputRef = useRef()
 
   useEffect(() => {
     inputRef.current.focus()
   })
-  console.log('inputRef', inputRef)
+
   return (
     <Box ml={6}>
-      <form onSubmit={onSubmit}>
+      <form>
         <InputGroup>
           <Input
             ref={inputRef}
@@ -60,18 +57,14 @@ const Filter = ({ input, onSubmit, onChange }) => {
             onChange={onChange}
             placeholder="Start typing to search"
           />
-          <InputRightElement children={<SearchIcon />} />
+          <InputRightElement>{<SearchIcon />}</InputRightElement>
         </InputGroup>
       </form>
     </Box>
   )
 }
 
-export const Navbar = ({
-  input,
-  handleChange,
-  //handleSubmit
-}) => {
+export const Navbar = ({ input, handleChange }) => {
   const [scrollPosition, setScrollPosition] = useState(0)
 
   const handleScroll = () => {
@@ -119,30 +112,8 @@ export const Navbar = ({
             Countries of the World
           </Heading>
         </Box>
-        <Filter
-          //onSubmit={handleSubmit}
-          input={input}
-          onChange={handleChange}
-        />
-        {/*  <Box ml={6}>
-          <Tooltip
-            label={<Text>Start typing to begin searching.</Text>}
-            aria-label="Start typing to begin searching."
-          >
-            <form onSubmit={handleSubmit}>
-              <InputGroup>
-                <Input
-                  value={input}
-                  onChange={handleChange}
-                  placeholder="Start typing to search"
-                />
-                <InputRightElement children={<SearchIcon />} />
-              </InputGroup>
-            </form>
-          </Tooltip>
-        </Box> */}
+        <Filter input={input} onChange={handleChange} />
         <Spacer />
-
         <Box w="5%">
           <ThemeToggle />
         </Box>

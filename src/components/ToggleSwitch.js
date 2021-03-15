@@ -1,16 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { HStack, Container, Switch, Text } from '@chakra-ui/react'
 
-const ToggleUnit = ({ country, unit, setUnit }) => {
+const ToggleUnit = ({ unit, setUnit }) => {
   const [state, setState] = useState(true)
+  console.log('state - toggle', state)
+  console.log('unit', unit)
 
   const onToggle = e => {
     e.preventDefault()
-    setState(!state)
     if (state === true) {
-      setUnit('imperial')
+      setState(false)
     } else {
-      setUnit('metric')
+      setState(true)
     }
   }
 
@@ -21,7 +22,12 @@ const ToggleUnit = ({ country, unit, setUnit }) => {
           <Text>
             <strong>C</strong>
           </Text>
-          <Switch onChange={onToggle} colorScheme="whiteAlpha" size="lg" />
+          <Switch
+            onChange={onToggle}
+            state={state}
+            colorScheme="whiteAlpha"
+            size="lg"
+          />
           <Text>
             <strong>F</strong>
           </Text>
