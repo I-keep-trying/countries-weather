@@ -1,0 +1,1503 @@
+[
+  {
+    "id": "RkqlnSgCBLp_iLl1U28ib",
+    "name": "Afghanistan",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "id": "VRaerkynyNbYV2ojeFE2J",
+    "name": "Åland Islands",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+
+  {
+    "id": "W7QE2s1k2qowgzl00qWKn",
+    "name": "Albania",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "4KEMhviroaPLKn2wfmkAe",
+    "name": "Algeria",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "id": "wsMmOsi4_mOwC8zs4rjOb",
+    "name": "American Samoa",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "id": "G2RZsFtHR2pPlRZMX_OxR",
+    "name": "Andorra",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "QWOGp97JSolcX8M43ABP1",
+    "name": "Angola",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "id": "peumW3X0QnnOmjAOEpjxS",
+    "name": "Anguilla",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "62Ldy1Ydw76OvUk2gUDbs",
+    "name": "Antarctica",
+    "region": "Polar",
+    "subregion": ""
+  },
+  {
+    "id": "73yPuXk1rCH-IWWxAGkQc",
+    "name": "Antigua and Barbuda",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "SBXiAtTTMp2mFRSS8-I0r",
+    "name": "Argentina",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "JlEUJ2V-fUlNTsjlrRfv5",
+    "name": "Armenia",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "VLfIg3bKgqim-7OFAp8lf",
+    "name": "Aruba",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "3g3nxwQEjhbw2OzT8GBkL",
+    "name": "Australia",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "id": "p_qOEtB5PKnnjHZ6g8VLS",
+    "name": "Austria",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "id": "bLzvgeOaAik83gdzCPpy7",
+    "name": "Azerbaijan",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "RAStjjowSv7mciGKK-wmn",
+    "name": "Bahamas",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "mifDTOqxgOX4OsyFEDGZr",
+    "name": "Bahrain",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "b_U7uuven6NaVKLgbn2D7",
+    "name": "Bangladesh",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "id": "3DE77d4i2mbc_Tp05xzwI",
+    "name": "Barbados",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "_BN6F_h-1DfcO3ujbCOTZ",
+    "name": "Belarus",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "klszE86to6lakpm4yAYyM",
+    "name": "Belgium",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "id": "EkmC8cJOjdCVhENfABWgD",
+    "name": "Belize",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "id": "kK-w_3As4rmRT2iN0HqXw",
+    "name": "Benin",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "E3GsKz_8_QgFJxZoQ8gzh",
+    "name": "Bermuda",
+    "region": "Americas",
+    "subregion": "Northern America"
+  },
+  {
+    "id": "jLDhZ7wzO9dQn2PAZP9DK",
+    "name": "Bhutan",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "id": "u6ySoMd4JM4Fw_eU30XnC",
+    "name": "Bolivia (Plurinational State of)",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "GYADChCdgRDr7GYjRfmNF",
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "b9Cn-wQPUA_TfWcJAkE2_",
+    "name": "Bosnia and Herzegovina",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "V5ZHRXO4y7s2F_RStXMHl",
+    "name": "Botswana",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "id": "JYCzLhPvaT0XJ-SsyyiOo",
+    "name": "Bouvet Island",
+    "region": "",
+    "subregion": ""
+  },
+  {
+    "id": "tq0sGyuY-mzNSksaHuvZ3",
+    "name": "Brazil",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "MRLeIf7Q6gfWYTGNrcrzB",
+    "name": "British Indian Ocean Territory",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "OVINt9vspZkdYDuDcvQwR",
+    "name": "United States Minor Outlying Islands",
+    "region": "Americas",
+    "subregion": "Northern America"
+  },
+  {
+    "id": "4hfQBuqJNXP67yXiVXKqu",
+    "name": "Virgin Islands (British)",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "BvQ6fU6dkOh03_AiwwePK",
+    "name": "Virgin Islands (U.S.)",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "MAEOGTvqpH0ehGa-li8uw",
+    "name": "Brunei Darussalam",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "oFxTuB9230ltLY04IWD2V",
+    "name": "Bulgaria",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "0GJ9kCr36M2U-LVFE_aRx",
+    "name": "Burkina Faso",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "A9u8RS5GRuzvSXZYMrKxf",
+    "name": "Burundi",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "AN0W_xKmAFXUXDbmTfqZH",
+    "name": "Cambodia",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "KHlRWObfTvdNSnJtlINJC",
+    "name": "Cameroon",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "id": "axleWj2eoz3XkLCVkpQaM",
+    "name": "Canada",
+    "region": "Americas",
+    "subregion": "Northern America"
+  },
+  {
+    "id": "kmQFjfQaAOTO3cQQV4EHJ",
+    "name": "Cabo Verde",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "TpC511lFk3afBpaEQqW_B",
+    "name": "Cayman Islands",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "Nk3sSv2EEDtzpED4bqD7H",
+    "name": "Central African Republic",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "id": "FCFx2vF7yvebEwOII2YLS",
+    "name": "Chad",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "id": "DWeTuCbpjQccnwybtTXPN",
+    "name": "Chile",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "CyNjGZv8z5C3hWKqzaxR6",
+    "name": "China",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "id": "OT7CNMv1HnMdDvvMuoaOE",
+    "name": "Christmas Island",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "id": "BroZYaH4SniLQEjzGDtDE",
+    "name": "Cocos (Keeling) Islands",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "id": "QBdGtonMKtX7rYH2n9CDE",
+    "name": "Colombia",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "S5Z-br67UVs8B2YM89rxL",
+    "name": "Comoros",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "PXzDgHdx9rBbIL_CYphvB",
+    "name": "Congo",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "id": "-wj9z_bmaMU4vTUNDa77x",
+    "name": "Congo (Democratic Republic of the)",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "id": "0qJlsm5YxCQSMEfIt2flu",
+    "name": "Cook Islands",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "id": "Z-3l1_nBFo7oha8N8loNR",
+    "name": "Costa Rica",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "id": "F1Op9W1qhhVIcLZ3Nj_a0",
+    "name": "Croatia",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "4ZD6O5_ZsMcRmi8Q9S1C8",
+    "name": "Cuba",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "3KuDLMbBPlmHk82ioqRv8",
+    "name": "Curaçao",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "oFEmGUuexFMHet1GUZGH9",
+    "name": "Cyprus",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "4Hd2cQ3X41UhcHmr_YhWn",
+    "name": "Czech Republic",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "hJ_cYv_t1OwsCiT_tSuQi",
+    "name": "Denmark",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "qXi3TGuN4a0jnkpdb8KyE",
+    "name": "Djibouti",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "VOQsEa5S97Ol8NkGEcZj-",
+    "name": "Dominica",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "ymjCK6xOca_py7rnbpWbo",
+    "name": "Dominican Republic",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "X2zUC94hOv-PcoM6h9rEY",
+    "name": "Ecuador",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "ZyHRKeEXJxbjF3gtzoo3r",
+    "name": "Egypt",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "id": "DA6PrCsJ3VuW4m5ncI-oI",
+    "name": "El Salvador",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "id": "8F7e4m44XwlegUCA1gXCF",
+    "name": "Equatorial Guinea",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "id": "Cv77HxovDaOg6bpmTzvvc",
+    "name": "Eritrea",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "oXyXpAJ1zNt3OKAVQ5L3V",
+    "name": "Estonia",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "C7T220fOnG6VmBpKMcr4d",
+    "name": "Ethiopia",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "eE1WzkRfBF6xnmDRWM6nD",
+    "name": "Falkland Islands (Malvinas)",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "bzN9L0omhpxc3meI0t695",
+    "name": "Faroe Islands",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "QM2DZ66O7pWceefZ-Vpre",
+    "name": "Fiji",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "id": "Osqr8p0s-TYWp6YJxFnDX",
+    "name": "Finland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "dZIfR9tcZquqauyzQyqL6",
+    "name": "France",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "id": "3na8Xefo-LRhtl0qvN5mz",
+    "name": "French Guiana",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "QcqaOPGVUQmys9uTxYPMD",
+    "name": "French Polynesia",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "id": "e-W7HP3V7BoDdBVCBYlw4",
+    "name": "French Southern Territories",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "id": "LCecDPonXxWJgfQWXwRWW",
+    "name": "Gabon",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "id": "O5hsvJNDUqYckrDfDbk_G",
+    "name": "Gambia",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "BOG3fzB_4l8-0YHH_Bz3V",
+    "name": "Georgia",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "L_A_BpO--3KiGaQaYCT-n",
+    "name": "Germany",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "id": "9bd5vwSkNXc2CjCOjxxM2",
+    "name": "Ghana",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "wWt8_AraYGX5v-Lev6sSO",
+    "name": "Gibraltar",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "ulT16wVRlTPcM2hM8MXMh",
+    "name": "Greece",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "qUjAW19mRkgrlVQvGJrh3",
+    "name": "Greenland",
+    "region": "Americas",
+    "subregion": "Northern America"
+  },
+  {
+    "id": "3xDHc6GauJ60Yxq04vrei",
+    "name": "Grenada",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "JgddL8XcYgnPyK5tuRd4O",
+    "name": "Guadeloupe",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "JpIYXRdR6jv9V3NeSLebG",
+    "name": "Guam",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "id": "326N12ukIE-SJXHknIrL6",
+    "name": "Guatemala",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "id": "mApNIPcX6VYBGQPLaJUyP",
+    "name": "Guernsey",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "XTqAVdU_sTtLfN760nDSv",
+    "name": "Guinea",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "kI5qG8LmcznEtIiTaHiTa",
+    "name": "Guinea-Bissau",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "fohiG04uBw4IVRExpOENc",
+    "name": "Guyana",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "Tf-OTRw2Z-np50On0_Snx",
+    "name": "Haiti",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "7FH3D5Hz8sE4sxVESOXNC",
+    "name": "Heard Island and McDonald Islands",
+    "region": "",
+    "subregion": ""
+  },
+  {
+    "id": "wfQ89e5RRjdCyQuTDQHw5",
+    "name": "Holy See",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "aEHZsXUnZSeBs_D4iXWJk",
+    "name": "Honduras",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "id": "4ZHg5vULqnasM9yFiYHJf",
+    "name": "Hong Kong",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "id": "RZEgXsSDxTK7lys58Bq8F",
+    "name": "Hungary",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "-EApKfgI6Qg2h5UyvcQcr",
+    "name": "Iceland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "IfDBeogKhSVizLRIf5avn",
+    "name": "India",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "id": "npbmrRXT4VAa7gsCD2JFW",
+    "name": "Indonesia",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "cl31ZsIY6PZEvCO4Ri8Ni",
+    "name": "Côte d'Ivoire",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "pJLiwo0iS7ZaLXcx3_2nw",
+    "name": "Iran (Islamic Republic of)",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "id": "bVQdBOlUlV8EV9hL0YKVe",
+    "name": "Iraq",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "gbcROXiYoictaCYnKa0Zj",
+    "name": "Ireland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "Bn0J9OlA5vVfJ2KZKo4NC",
+    "name": "Isle of Man",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "dfEYG-bnfmwZvojuWYQMv",
+    "name": "Israel",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "7_HcEivyc7UfWjF7PYqwg",
+    "name": "Italy",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "WxOsOwDK46uV-7vw45uiq",
+    "name": "Jamaica",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "f2kM0lgYuWBJxCEnymowd",
+    "name": "Japan",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "id": "mDbasXVgJ8m32xqv3fg-q",
+    "name": "Jersey",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "_jhKbR5k7OIaqP7gDWbcm",
+    "name": "Jordan",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "TAWZ6QB5eZ1fQH5xLsYqr",
+    "name": "Kazakhstan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "id": "1pMR7ctnP7mefy51ZtPvZ",
+    "name": "Kenya",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "D6tyg0Ny3pekY5MsjBLDb",
+    "name": "Kiribati",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "id": "xdhzmX3Oov4rQ-bbW50vq",
+    "name": "Kuwait",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "7DzNwWAErNAQ6IXtJkjeE",
+    "name": "Kyrgyzstan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "id": "mN-e1qMt-BXdfhbum5km9",
+    "name": "Lao People's Democratic Republic",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "ZOiBuFmUAZzp05hZPGixt",
+    "name": "Latvia",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "QBen-h4LgevxHxLca9CBv",
+    "name": "Lebanon",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "h81YHb6vf34-uMJrp9hEZ",
+    "name": "Lesotho",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "id": "9tUhl7H4XxqtP_NiVYEt7",
+    "name": "Liberia",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "rab5L3O9BcvFM2Xa0kFmM",
+    "name": "Libya",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "id": "PBQhrQPSMZPW5LGOjS3FO",
+    "name": "Liechtenstein",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "id": "bRVIReA5mi9O0OhamcCqd",
+    "name": "Lithuania",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "89OvQWNRKbH1WV-Be1Ed2",
+    "name": "Luxembourg",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "id": "JFvzMOBfpItj-EksK6e2Y",
+    "name": "Macao",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "id": "8L8lQlwJTpY1aWWWmxl8T",
+    "name": "Macedonia (the former Yugoslav Republic of)",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "O0dO3Hj-qWIQ0kJk_vOSw",
+    "name": "Madagascar",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "AXQnlYrOZJsiu28LWkeLM",
+    "name": "Malawi",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "wBSd3nhmYwfljkGf1yzoV",
+    "name": "Malaysia",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "2vIMC22w2z8Kgwr6buPI-",
+    "name": "Maldives",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "id": "q8sLQDXtIcWde0uPWg01g",
+    "name": "Mali",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "CM8ExMuiWO2n0AWuDdhUo",
+    "name": "Malta",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "ZLB82YDuBvJJCrkCwKSuF",
+    "name": "Marshall Islands",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "id": "RRFWjhR090tkeB3FhvlHz",
+    "name": "Martinique",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "2eAVr39ec9WjD5D9Hn2xV",
+    "name": "Mauritania",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "-0_VcKdrKMbSsZB5IR8MO",
+    "name": "Mauritius",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "BnTN-NZu97fVFCwS_CANf",
+    "name": "Mayotte",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "8NGgwRVboWWDzD1S_tbEc",
+    "name": "Mexico",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "id": "WV1yDUT6Dw2eGdzGakwUc",
+    "name": "Micronesia (Federated States of)",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "id": "X0MgJEkJkiiTjuAfcx9wI",
+    "name": "Moldova (Republic of)",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "PinFtuXhJAEOeJumHISEb",
+    "name": "Monaco",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "id": "ZiyJ8_s_QYwPmSbqQHEgu",
+    "name": "Mongolia",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "id": "h5DRpivAh8yPfCT7s8Yt5",
+    "name": "Montenegro",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "vaRlqgPHuaa_mvUS5uHl5",
+    "name": "Montserrat",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "vxFSzP2e1V3ew2m5eBbPh",
+    "name": "Morocco",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "id": "4ptupHT-evKA5qb3ma2wC",
+    "name": "Mozambique",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "1z3OD90LwEhJ7_o1esjIb",
+    "name": "Myanmar",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "7Gr9ik7Gb8LvCoXT6tkBC",
+    "name": "Namibia",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "id": "ymtuFyvatLVRSsYdUCd7A",
+    "name": "Nauru",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "id": "RHB-feCHgBK0h2IFYkvZA",
+    "name": "Nepal",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "id": "ljNCdjckY6ukwVd290EH1",
+    "name": "Netherlands",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "id": "wYdNwW7OW4NmWOWi_G_x4",
+    "name": "New Caledonia",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "id": "uJBZM5L9REMXj5c3gdy1R",
+    "name": "New Zealand",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "id": "cP6a35-Wsp4-l5AJoW4vQ",
+    "name": "Nicaragua",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "id": "dv-K-5JAGp4XRs72oWRkj",
+    "name": "Niger",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "uGwYGJPIm_ziQqkp9Hfk6",
+    "name": "Nigeria",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "BzXGP5FR7cQHuZqUwFYoU",
+    "name": "Niue",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "id": "uUKj6sYPxBK-7VqZtAx9b",
+    "name": "Norfolk Island",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "id": "jSkaPa5R6Ew0J3bLNw6B7",
+    "name": "Korea (Democratic People's Republic of)",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "id": "OVfAM0AbhUqqnhfIX-A5B",
+    "name": "Northern Mariana Islands",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "id": "CIinAV9dnqeqU1ElfV6RC",
+    "name": "Norway",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "ykfNbRT1hKTlDuIkBE6L7",
+    "name": "Oman",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "fyypcg4JSR3sSm9ucMvVY",
+    "name": "Pakistan",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "id": "2ULle_aBG0nl8EnehMqSx",
+    "name": "Palau",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "id": "HA-PVBi_iKF3ygYkORSHM",
+    "name": "Palestine, State of",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "sJw2V8qOQYvBLv7MRw8hv",
+    "name": "Panama",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "id": "eyXBEto9WhTNO4slB97q1",
+    "name": "Papua New Guinea",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "id": "p2zvgD4E3KWZd0SNYainE",
+    "name": "Paraguay",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "JTTS9irvK0xfbTNUslg7o",
+    "name": "Peru",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "GPbDNLiuwP_FTEf7LzAht",
+    "name": "Philippines",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "hKTCwHFihDN6quIhGOzLe",
+    "name": "Pitcairn",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "id": "szIacqmY1OiU0L8tarO_Q",
+    "name": "Poland",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "Ry0nqELRbZWc5F7HucrEw",
+    "name": "Portugal",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "GqmcJYqpbJ2YKVQP4ZUmW",
+    "name": "Puerto Rico",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "LEYCjwIe9Wo7nQPjejC65",
+    "name": "Qatar",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "tchxotqapXXpmx7Vgcy7f",
+    "name": "Republic of Kosovo",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "lIApeegoyTplwS6Yq_neO",
+    "name": "Réunion",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "eW2BPZBtrOjOvKCB_7s-0",
+    "name": "Romania",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "3brO8OrnrhnV8m9-5snmN",
+    "name": "Russian Federation",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "xeukhnbhnjBV4yJJIIqTi",
+    "name": "Rwanda",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "9ijl39-M_-3jwassqNvC4",
+    "name": "Saint Barthélemy",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "-ubxZyCbuWY-kBZnN1wW0",
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "0Uivoh5xIioS4PQrHWYvi",
+    "name": "Saint Kitts and Nevis",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "UpDScMD1X6WtZNkNtzWRp",
+    "name": "Saint Lucia",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "kbhfmW8sH_ZQvDX7V4dJU",
+    "name": "Saint Martin (French part)",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "X202od4_M3zzF66tYDH68",
+    "name": "Saint Pierre and Miquelon",
+    "region": "Americas",
+    "subregion": "Northern America"
+  },
+  {
+    "id": "cL7otlgYktUSSgyQf5roM",
+    "name": "Saint Vincent and the Grenadines",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "80_oognH5ZV-1N_P1XFhC",
+    "name": "Samoa",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "id": "2ntz90m9E_yB2abPZILio",
+    "name": "San Marino",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "UVsCZsJ-oyuUtN6GmZ7mT",
+    "name": "Sao Tome and Principe",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "id": "1RxGlHnaNduewwTJRd-3a",
+    "name": "Saudi Arabia",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "ozAxyV_BF4g_5neAFRBY-",
+    "name": "Senegal",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "OyhaVxLnSYa0cbfM5AN9m",
+    "name": "Serbia",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "u_Km6F3mBjCmL2RA7MUzG",
+    "name": "Seychelles",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "_f6hJG8a64Tmaxo2wxSsS",
+    "name": "Sierra Leone",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "n6ZF2h_1A-D97_qu-ZxYv",
+    "name": "Singapore",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "xUTyDzhV-muo8SqApa5ck",
+    "name": "Sint Maarten (Dutch part)",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "mEo6WDSLzIlm27DT-SHPH",
+    "name": "Slovakia",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "HD36sk86ijsRhk7hbvv4a",
+    "name": "Slovenia",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "TVjfZonnUhauRYHVMD5fb",
+    "name": "Solomon Islands",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "id": "ZmK3soFlwED2jl4lNgfER",
+    "name": "Somalia",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "HDZsRHBaa8m5GlCAM_Y8W",
+    "name": "South Africa",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "id": "28Z9B-w5E3tTzCK5QGiID",
+    "name": "South Georgia and the South Sandwich Islands",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "7rmoV24HRVfHPZx8NiYxw",
+    "name": "Korea (Republic of)",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "id": "TWTJSXMKV0p70ZpctCD_p",
+    "name": "South Sudan",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "id": "idhM_9sxEZCugTd2_6GsU",
+    "name": "Spain",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "id": "4LhLjfXaNx3w7OZQmE6NB",
+    "name": "Sri Lanka",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "id": "bVWUGSdlwyAAJtLiI7KVS",
+    "name": "Sudan",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "id": "ldSlmmIwzVMr5OW6imRw5",
+    "name": "Suriname",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "egL0ymbwinjaJtR6AraMe",
+    "name": "Svalbard and Jan Mayen",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "s1wZ09IsfHHykvu1YKgF7",
+    "name": "Swaziland",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "id": "V9LaaCNI-6xEowVKeaTSN",
+    "name": "Sweden",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "XyhzIIyeXQDgLgWkYdq1K",
+    "name": "Switzerland",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "id": "I_7fEuAy2aTBdIGfz9ZBj",
+    "name": "Syrian Arab Republic",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "VTphiKKzLoCLhKDCzmKSB",
+    "name": "Taiwan",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "id": "UCWAFbxNAE2SETlzSN_6r",
+    "name": "Tajikistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "id": "YF3HS4CnGU2xslrfWQEuH",
+    "name": "Tanzania, United Republic of",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "FLExh0R43v6sa68ERB0eF",
+    "name": "Thailand",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "K1iFUoQ9UD_PVZdraXzIK",
+    "name": "Timor-Leste",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "jCWaCwiBjYU-DMXMXOUIE",
+    "name": "Togo",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "id": "17EzFEmyS4WskJkpnGH6Q",
+    "name": "Tokelau",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "id": "aRXFsRR8TM2YIA2TFQF_-",
+    "name": "Tonga",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "id": "Ep3HC7P9bXUJwDT9xUYx3",
+    "name": "Trinidad and Tobago",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "J56_XCGdOf76w-cLLdkF6",
+    "name": "Tunisia",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "id": "We-5N5QHENOJZsLn2aTeb",
+    "name": "Turkey",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "nMaH65LRG-L-NE2Pyi1ug",
+    "name": "Turkmenistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "id": "ldQIfvrmDriRlRsOLcU-k",
+    "name": "Turks and Caicos Islands",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "id": "smUAqJ_YdLsYalHC8btVZ",
+    "name": "Tuvalu",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "id": "MeAy-zEop4h3evj9y4B5K",
+    "name": "Uganda",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "Vemx5rct5TKW5pogpnPRi",
+    "name": "Ukraine",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "id": "LlfRRknsCPnJr87HXn33q",
+    "name": "United Arab Emirates",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "umjahaDjvTVLV7jpOOlg_",
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "id": "U-O2R2XlC2ecYFTUFR6FR",
+    "name": "United States of America",
+    "region": "Americas",
+    "subregion": "Northern America"
+  },
+  {
+    "id": "WOEFDYLF1_xjcnxHX_GWy",
+    "name": "Uruguay",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "mo4i0gdPi2KFXgD70E0bm",
+    "name": "Uzbekistan",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "id": "fTtRcSU9NJWkNbB6RITTW",
+    "name": "Vanuatu",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "id": "Otge5YbUW4rfY8u8tQ179",
+    "name": "Venezuela (Bolivarian Republic of)",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "id": "rmQPNfMlFPBmOQmcRL5ly",
+    "name": "Viet Nam",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "id": "3wBN_J6WA0Qx24QC3yOYC",
+    "name": "Wallis and Futuna",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "id": "scBfJt33Vuuro2QO5KKC4",
+    "name": "Western Sahara",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "id": "vRigIArr4OweCF7BWuge0",
+    "name": "Yemen",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "id": "Ah4cEbPj8d3govLyLu_W0",
+    "name": "Zambia",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "id": "PBlKrw0lz_aw8FbTEg0qp",
+    "name": "Zimbabwe",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  }
+]

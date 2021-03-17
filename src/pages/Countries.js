@@ -2,83 +2,87 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import {
   Table,
-  Thead,
   Tbody,
-  Tfoot,
   Tr,
-  Th,
   Td,
   Button,
-  Box,
-  Grid,
-  VStack,
-  HStack,
-  Container,
-  Link,
-  Tooltip,
-  Heading,
-  Text,
-  Image,
+  Tabs,
+  TabList,
+  TabPanels,
+  Tab,
+  TabPanel,
 } from '@chakra-ui/react'
-import { Country } from '../App1'
+import Country from '../pages/Country'
 
-const Countries = ({ countries, setInput, ref }) => {
-  const [unit, setUnit] = useState('metric')
+const Countries = ({ countries, setInput, regions, setRegion }) => {
   const [details, setDetails] = useState({})
   const [isLoading, setIsLoading] = useState(true)
-  const [retrievedData, setretrievedData] = useState()
 
-  const getData = async c => {
-    console.log('c', c)
-
-    try {
-      const countryData = await axios.get(
-        `https://restcountries.eu/rest/v2/name/${c.name}`
-      )
-      setDetails(countryData.data[0])
-      setIsLoading(false)
-    } catch (err) {
-      console.log(err)
+  useEffect(() => {
+    if (countries.length === 1) {
+      axios
+        .get(`https://restcountries.eu/rest/v2/name/${countries[0].name}`)
+        .then(result => {
+          setDetails(result.data[0])
+          setIsLoading(false)
+        })
     }
-  }
-  console.log('details - global', details)
-  console.log('isLoading?', isLoading)
-  const getCountryData = c => {
-    getData(c)
-    console.log('details - onClick', details)
-  }
- 
+  }, [countries])
 
-  return isLoading ? (
+  if (countries.length === 0) {
+    return <div>no matches</div>
+  }
+
+  if (countries.length === 1) {
+    return <Country setInput={setInput} isLoading={isLoading} country={details} />
+  }
+
+  return (
     <>
-      <Table>
-        <Tbody>
-          {countries.map(c => (
-            <Tr id={c.id} key={c.id}>
-              <Td>{c.name}</Td>
-              <Td>
-                {/*   <Button
-                  size="xs"
-                  variant="ghost"
-                  onClick={() => setSearchTerm(c.name)}
-                >
-                  details
-                </Button> */}
-                <Button
-                  size="xs"
-                  variant="ghost"
-                  onClick={() => getCountryData(c)}
-                >
-                  details
-                </Button>
-              </Td>
-            </Tr>
+      <Tabs>
+        <TabList>
+          {regions.map((r, index) => (
+            <Tab
+              as="button"
+              size="xs"
+              variant="ghost"
+              onClick={() => setRegion(r.region)}
+              key={index}
+            >
+              {r.region}
+            </Tab>
           ))}
-        </Tbody>
-      </Table>
+        </TabList>
+        <TabPanels>
+          {regions.map((tab, index) => {
+            return (
+              <TabPanel p={4} key={index}>
+                <Table>
+                  <Tbody>
+                    {countries.map(c => {
+                      return (
+                        <Tr key={c.id}>
+                          <Td>{c.name}</Td>
+                          <Td>
+                            <Button
+                              size="xs"
+                              variant="ghost"
+                              onClick={() => setInput(c.name)}
+                            >
+                              details
+                            </Button>
+                          </Td>
+                        </Tr>
+                      )
+                    })}
+                  </Tbody>
+                </Table>
+              </TabPanel>
+            )
+          })}
+        </TabPanels>
+      </Tabs>
     </>
-  ) : (
-    <Country isLoading={isLoading} country={details} />
   )
 }
 

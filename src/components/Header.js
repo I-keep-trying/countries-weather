@@ -38,7 +38,6 @@ export const ThemeToggle = () => {
 
 const Filter = ({
   input,
-  //onSubmit,
   onChange,
 }) => {
   const inputRef = useRef()
@@ -97,7 +96,6 @@ export const Navbar = ({ input, handleChange }) => {
         bg={useColorModeValue('white', 'gray.800')}
         align="center"
         justify="flex-end"
-        wrap="wrap"
         w="100%"
         h="10%"
         shadow="base"
@@ -109,12 +107,12 @@ export const Navbar = ({ input, handleChange }) => {
               'with-gradient-dark'
             )}
           >
-            Countries of the World
+           World Countries
           </Heading>
         </Box>
         <Filter input={input} onChange={handleChange} />
         <Spacer />
-        <Box w="5%">
+        <Box mr={4} w="5%">
           <ThemeToggle />
         </Box>
       </Flex>

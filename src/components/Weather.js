@@ -1,6 +1,5 @@
 /* eslint-disable no-undef */
-import React, { useState, useEffect } from 'react'
-import axios from 'axios'
+import React from 'react'
 import {
   Box,
   Image,
@@ -10,30 +9,16 @@ import {
   Stack,
   Text,
   Container,
-  Flex,
   Switch,
-  Radio,
-  RadioGroup,
 } from '@chakra-ui/react'
 import moment from 'moment'
 import Images from '../images/weather-animated/index'
-import ToggleUnit from '../components/ToggleSwitch'
 import '../owm-right.css'
-//import '../index.css'
 
 function WeatherIcon({ src, alt }) {
   return (
     <Box>
       <Image src={src} alt={alt} />
-    </Box>
-  )
-}
-
-function CardTitle({ title, desc, unit, setUnit }) {
-  return (
-    <Box id="card title">
-      <Heading fontSize="xl">{title}</Heading>
-      <Text mt={4}>{desc}</Text>
     </Box>
   )
 }
@@ -92,40 +77,48 @@ function DetailsList({ weather, feels, wind, hum, press }) {
   )
 }
 
-function WeatherWidget({ country, weather, unit, setUnit }) {
+function WeatherWidget({ weather, unit, setUnit }) {
   const code = weather.weather[0].icon
   const icon = Images[code].path
   const alt = Images[code].alt
   const date = moment.unix(weather.dt).format('YYYY-MM-DD, h:mm a')
 
-  const setToggle = () => {
+  const setToggle = e => {
+    e.preventDefault()
     if (unit === 'metric') {
-      // setUnit('imperial')
+      setUnit('imperial')
       return true
     } else {
-      //   setUnit('metric')
+      setUnit('metric')
       return false
     }
   }
+
   return (
     <>
-      <Box id="weather container" borderRadius="20px" shadow="md" w="100%">
-        <Heading
-          textAlign="center"
-          fontSize="xl"
-        >{`Weather in ${country.name}`}</Heading>
-        <VStack className="widget-right--brown" spacing={0} align="stretch">
+      <Box id="weather container" shadow="md" w="100%">
+        <VStack
+          borderTopLeftRadius="20px"
+          borderTopRightRadius="20px"
+          className="widget-right--brown"
+          spacing={0}
+          align="stretch"
+        >
           <HStack id="hstack" spacing={0}>
             <Container>
-              <RadioGroup onChange={setUnit} value={unit}>
-                <Stack direction="row">
-                  <Radio value="metric">C</Radio>
-                  <Radio value="imperial">F</Radio>
-                </Stack>
-              </RadioGroup>
-              <Switch onChange={setToggle} value={unit} />
-              <div>{JSON.stringify(unit)} </div>
-              <Text>{weather.weather[0].description}</Text>
+              <HStack>
+                <Text fontSize="40px" mb={2}>C</Text>
+                <Switch
+                  colorScheme="whiteAlpha"
+                  size="lg"
+                  value={unit}
+                  isChecked={unit === 'imperial'}
+                  onChange={setToggle}
+                />
+                <Text fontSize="40px" mb={2}>F</Text>
+              </HStack>
+
+              <Text fontSize="30px">{weather.weather[0].description}</Text>
             </Container>
             <WeatherIcon src={icon} alt={alt} />
           </HStack>
@@ -156,8 +149,8 @@ function WeatherWidget({ country, weather, unit, setUnit }) {
           </Box>
         </HStack>
         <HStack
-          borderBottomRightRadius="20px"
           borderBottomLeftRadius="20px"
+          borderBottomRightRadius="20px"
           className="widget-right--brown"
         >
           <Container textAlign="right" spacing={0}>
