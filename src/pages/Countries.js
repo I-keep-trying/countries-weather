@@ -3,6 +3,8 @@ import axios from 'axios'
 import {
   Table,
   Tbody,
+  Thead,
+  Th,
   Tr,
   Td,
   Button,
@@ -11,10 +13,19 @@ import {
   TabPanels,
   Tab,
   TabPanel,
+  Select,
+  ButtonGroup,
 } from '@chakra-ui/react'
 import Country from '../pages/Country'
 
-const Countries = ({ countries, setInput, regions, setRegion }) => {
+const Countries = ({
+  countries,
+  setInput,
+  regions,
+  subregion,
+  setRegion,
+  setSubRegion,
+}) => {
   const [details, setDetails] = useState({})
   const [isLoading, setIsLoading] = useState(true)
 
@@ -34,35 +45,77 @@ const Countries = ({ countries, setInput, regions, setRegion }) => {
   }
 
   if (countries.length === 1) {
-    return <Country setInput={setInput} isLoading={isLoading} country={details} />
+    return (
+      <Country
+        setInput={setInput}
+        setRegion={setRegion}
+        isLoading={isLoading}
+        country={details}
+        setSubRegion={setSubRegion}
+      />
+    )
   }
 
   return (
     <>
-      <Tabs>
+      <Tabs id="Tabs" isFitted isLazy>
         <TabList>
-          {regions.map((r, index) => (
-            <Tab
-              as="button"
-              size="xs"
-              variant="ghost"
-              onClick={() => setRegion(r.region)}
-              key={index}
-            >
-              {r.region}
-            </Tab>
-          ))}
+          {regions.map(r => {
+            const handleTabChange = () => {
+              console.log('regions.map', r)
+              setRegion(r.region)
+              setSubRegion('')
+            }
+            return (
+              <Tab
+                as="button"
+                size="xs"
+                variant="ghost"
+                onClick={handleTabChange}
+                key={r.id}
+              >
+                {r.region}
+              </Tab>
+            )
+          })}
         </TabList>
         <TabPanels>
-          {regions.map((tab, index) => {
+          {regions.map(r => {
             return (
-              <TabPanel p={4} key={index}>
+              <TabPanel p={4} key={r.id}>
+                {r.region === 'All' ? (
+                  <></>
+                ) : r.region === 'Other' ? (
+                  <></>
+                ) : (
+                  <>
+                    Filter by Subregion:
+                    <Select
+                      value={subregion}
+                      onChange={e => setSubRegion(e.target.value)}
+                    >
+                      <option></option>
+                      {r.subregions !== undefined ? (
+                        r.subregions.map((sr, i) => {
+                          return (
+                            <option key={i} value={sr}>
+                              {sr}
+                            </option>
+                          )
+                        })
+                      ) : (
+                        <></>
+                      )}
+                    </Select>{' '}
+                  </>
+                )}
                 <Table>
                   <Tbody>
                     {countries.map(c => {
                       return (
                         <Tr key={c.id}>
                           <Td>{c.name}</Td>
+
                           <Td>
                             <Button
                               size="xs"

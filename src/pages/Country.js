@@ -19,12 +19,19 @@ import {
   TabPanels,
   Tab,
   TabPanel,
+  Button,
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import axios from 'axios'
 import Weather from '../components/Weather'
 
-const Country = ({ country, isLoading, setInput }) => {
+const Country = ({
+  country,
+  isLoading,
+  setInput,
+  setRegion,
+  setSubRegion,
+}) => {
   const [weather, setWeather] = useState({})
   const [unit, setUnit] = useState('metric')
   const [isWeatherLoading, setIsWeatherLoading] = useState(true)
@@ -66,6 +73,7 @@ const Country = ({ country, isLoading, setInput }) => {
         const lat = Math.round(country.latlng[0])
         const lon = Math.round(country.latlng[1])
         setIsWeatherLoading(true)
+
         const url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
 
         axios.get(url).then(response => {
@@ -80,9 +88,18 @@ const Country = ({ country, isLoading, setInput }) => {
     }
   }, [country, unit, isLoading])
 
+  const reset = () => {
+    setInput('')
+    setRegion('All')
+    setSubRegion('')
+  }
+
   return !isLoading ? (
     <>
       <Container centerContent mt={100} mb={10}>
+        <Box mb={5}>
+          <Button onClick={reset}>Back</Button>
+        </Box>
         <Tabs isFitted size="lg">
           <TabList>
             <Tab>
