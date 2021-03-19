@@ -36,10 +36,7 @@ export const ThemeToggle = () => {
   )
 }
 
-const Filter = ({
-  input,
-  onChange,
-}) => {
+const Filter = ({ input, onChange }) => {
   const inputRef = useRef()
 
   useEffect(() => {
@@ -63,7 +60,13 @@ const Filter = ({
   )
 }
 
-export const Navbar = ({ input, handleChange }) => {
+export const Navbar = ({
+  input,
+  handleChange,
+  setInput,
+  setRegion,
+  setSubRegion,
+}) => {
   const [scrollPosition, setScrollPosition] = useState(0)
 
   const handleScroll = () => {
@@ -89,6 +92,12 @@ export const Navbar = ({ input, handleChange }) => {
     }
   }, [])
 
+  const reset = () => {
+    setInput('')
+    setRegion('All')
+    setSubRegion('')
+  }
+
   return (
     <>
       <Flex
@@ -102,12 +111,14 @@ export const Navbar = ({ input, handleChange }) => {
       >
         <Box ml={4}>
           <Heading
+            as="button"
+            onClick={reset}
             variant={useColorModeValue(
               'with-gradient-light',
               'with-gradient-dark'
             )}
           >
-           World Countries
+            World Countries
           </Heading>
         </Box>
         <Filter input={input} onChange={handleChange} />

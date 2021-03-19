@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 import React from 'react'
 import {
   Box,
@@ -10,6 +9,7 @@ import {
   Text,
   Container,
   Switch,
+  Center,
 } from '@chakra-ui/react'
 import moment from 'moment'
 import Images from '../images/weather-animated/index'
@@ -96,7 +96,7 @@ function WeatherWidget({ weather, unit, setUnit }) {
 
   return (
     <>
-      <Box id="weather container" shadow="md" w="100%">
+      <Box id="weather Box" shadow="md" w="100%">
         <VStack
           borderTopLeftRadius="20px"
           borderTopRightRadius="20px"
@@ -104,10 +104,12 @@ function WeatherWidget({ weather, unit, setUnit }) {
           spacing={0}
           align="stretch"
         >
-          <HStack id="hstack" spacing={0}>
+          <HStack spacing={0}>
             <Container>
               <HStack>
-                <Text fontSize="40px" mb={2}>C</Text>
+                <Text fontSize="40px" mb={2}>
+                  C
+                </Text>
                 <Switch
                   colorScheme="whiteAlpha"
                   size="lg"
@@ -115,7 +117,9 @@ function WeatherWidget({ weather, unit, setUnit }) {
                   isChecked={unit === 'imperial'}
                   onChange={setToggle}
                 />
-                <Text fontSize="40px" mb={2}>F</Text>
+                <Text fontSize="40px" mb={2}>
+                  F
+                </Text>
               </HStack>
 
               <Text fontSize="30px">{weather.weather[0].description}</Text>
@@ -124,29 +128,31 @@ function WeatherWidget({ weather, unit, setUnit }) {
           </HStack>
         </VStack>
 
-        <HStack spacing={0}>
-          <Box whiteSpace="nowrap" w="40%" p={0}>
-            <Container textAlign="center">
-              <Text fontSize="70px" as="strong">
-                {Math.round(weather.main.temp)}
-                <Text as="sup">°</Text>
-                {unit === 'metric' ? 'C' : 'F'}
-              </Text>
-            </Container>
-          </Box>
+        <HStack
+          display={{ sm: 'flex' }}
+          spacing={0}
+        >
+          <Center w="40%">
+            <Text
+              fontSize={{ base:"50px", md: '60px', lg: '70px' }}
+              as="strong"
+            >
+              {Math.round(weather.main.temp)}
+              <Text as="sup">°</Text>
+              {unit === 'metric' ? 'C' : 'F'}
+            </Text>
+          </Center>
 
-          <Box w="60%" p={5}>
-            <Stack>
-              <Details title="Details" />
-              <DetailsList
-                feels="Feels like"
-                wind="Wind"
-                hum="Humidity"
-                press="Pressure"
-                weather={weather}
-              />
-            </Stack>
-          </Box>
+          <Stack w="60%" p={5}>
+            <Details title="Details" />
+            <DetailsList
+              feels="Feels like"
+              wind="Wind"
+              hum="Humidity"
+              press="Pressure"
+              weather={weather}
+            />
+          </Stack>
         </HStack>
         <HStack
           borderBottomLeftRadius="20px"

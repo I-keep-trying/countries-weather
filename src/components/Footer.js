@@ -1,6 +1,5 @@
 import React from 'react'
 import { Center, Text, Box,  useColorModeValue } from '@chakra-ui/react'
-//import { SiFacebook, SiTwitter, SiGithub, SiLinkedin } from 'react-icons/si'
 
 function Footer() {
   return (

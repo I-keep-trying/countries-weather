@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Container } from '@chakra-ui/react'
 import countriesList from './countriesList'
-import regions from './regions1'
+import regions from './regions'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Countries from './pages/Countries'
@@ -21,8 +21,7 @@ const App = () => {
     } */
     return c.name.toLowerCase().startsWith(input.toLowerCase())
   })
-  console.log('input', input)
-  console.log('filteredCountries', filteredCountries)
+
   /* 
   Future improvement handling locale specific alphabets:
   const filteredCountries = countriesList.filter(c => c.name.localeCompare(b, 'en', { sensitivity: 'base' }))
@@ -49,7 +48,13 @@ const App = () => {
 
   return (
     <>
-      <Header input={input} handleChange={handleChange} />
+      <Header
+        input={input}
+        setInput={setInput}
+        setRegion={setRegion}
+        setSubRegion={setSubRegion}
+        handleChange={handleChange}
+      />
       <Container maxW="container.md" id="App container" mt={100}>
         <Countries
           regions={regions}

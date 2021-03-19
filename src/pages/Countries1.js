@@ -3,16 +3,11 @@ import axios from 'axios'
 import {
   Table,
   Tbody,
-  Tr,
-  Td,
-  Button,
   Tabs,
   TabList,
   TabPanels,
   Tab,
   TabPanel,
-  HStack,
-  Box,
 } from '@chakra-ui/react'
 import Country from '../pages/Country'
 

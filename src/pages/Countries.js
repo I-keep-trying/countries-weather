@@ -3,8 +3,6 @@ import axios from 'axios'
 import {
   Table,
   Tbody,
-  Thead,
-  Th,
   Tr,
   Td,
   Button,
@@ -14,7 +12,8 @@ import {
   Tab,
   TabPanel,
   Select,
-  ButtonGroup,
+  Text,
+  Stack,
 } from '@chakra-ui/react'
 import Country from '../pages/Country'
 
@@ -29,6 +28,7 @@ const Countries = ({
   const [details, setDetails] = useState({})
   const [isLoading, setIsLoading] = useState(true)
 
+  console.log('isLoading', isLoading)
   useEffect(() => {
     if (countries.length === 1) {
       axios
@@ -40,8 +40,21 @@ const Countries = ({
     }
   }, [countries])
 
+  const reset = () => {
+    setInput('')
+    setRegion('All')
+    setSubRegion('')
+  }
+
   if (countries.length === 0) {
-    return <div>no matches</div>
+    return (
+      <Stack>
+        <Text as="button" onClick={reset}>
+          no matches
+        </Text>
+        <Button onClick={reset}>new search</Button>
+      </Stack>
+    )
   }
 
   if (countries.length === 1) {
@@ -52,17 +65,17 @@ const Countries = ({
         isLoading={isLoading}
         country={details}
         setSubRegion={setSubRegion}
+        setIsLoading={setIsLoading}
       />
     )
   }
 
   return (
     <>
-      <Tabs id="Tabs" isFitted isLazy>
+      <Tabs isFitted isLazy>
         <TabList>
           {regions.map(r => {
             const handleTabChange = () => {
-              console.log('regions.map', r)
               setRegion(r.region)
               setSubRegion('')
             }
@@ -112,6 +125,10 @@ const Countries = ({
                 <Table>
                   <Tbody>
                     {countries.map(c => {
+                      const handleClick = () => {
+                        setIsLoading(true)
+                        setInput(c.name)
+                      }
                       return (
                         <Tr key={c.id}>
                           <Td>{c.name}</Td>
@@ -120,7 +137,7 @@ const Countries = ({
                             <Button
                               size="xs"
                               variant="ghost"
-                              onClick={() => setInput(c.name)}
+                              onClick={handleClick}
                             >
                               details
                             </Button>
