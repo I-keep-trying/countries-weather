@@ -8,7 +8,6 @@ import {
   Td,
   Box,
   VStack,
-  Container,
   Link,
   Tooltip,
   Heading,
@@ -103,7 +102,9 @@ const Country = ({
       {/*       <Container centerContent mt={100} mb={10}>
        */}{' '}
       <Box mb={5}>
-        <Button variant="ghost" onClick={reset}>Back</Button>
+        <Button variant="ghost" onClick={reset}>
+          Back
+        </Button>
       </Box>
       <Tabs isFitted isLazy>
         <TabList>
