@@ -76,7 +76,7 @@ const Country = ({
         const lon = Math.round(country.latlng[1])
         setIsWeatherLoading(true)
 
-        const url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
+        const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
 
         axios.get(url).then(response => {
           setWeather(response.data)
