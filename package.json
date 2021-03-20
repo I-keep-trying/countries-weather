@@ -2,6 +2,10 @@
   "name": "react-chakra",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.6",
     "@chakra-ui/react": "^1.0.0",
@@ -17,6 +21,7 @@
     "cp-axios": "^0.1.11",
     "cp-fetch": "^0.1.8",
     "eslint-plugin-switch-case": "^1.1.2",
+    "express": "^4.17.1",
     "framer-motion": ">=3.0.0",
     "moment": "^2.29.1",
     "nanoid": "^3.1.20",
