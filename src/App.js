@@ -11,6 +11,7 @@ const App = () => {
   const [input, setInput] = useState('')
   const [region, setRegion] = useState('All')
   const [subregion, setSubRegion] = useState('')
+  const [isLoading, setIsLoading] = useState(true)
 
   const filteredCountries = countriesList.filter(c => {
     /*     if (
@@ -19,6 +20,7 @@ const App = () => {
     ) {
       return true
     } */
+
     return c.name.toLowerCase().startsWith(input.toLowerCase())
   })
 
@@ -43,9 +45,10 @@ const App = () => {
       : filterByRegion.filter(r => r.subregion === subregion)
 
   const handleChange = event => {
+    !isLoading ? setIsLoading(true) : isLoading
     setInput(event.target.value)
   }
-
+  
   return (
     <>
       <Header
@@ -63,6 +66,8 @@ const App = () => {
           setRegion={setRegion}
           setSubRegion={setSubRegion}
           subregion={subregion}
+          isLoading={isLoading}
+          setIsLoading={setIsLoading}
         />
       </Container>
 

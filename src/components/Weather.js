@@ -33,7 +33,7 @@ function Details({ title }) {
   )
 }
 
-function DetailsList({ weather, feels, wind, hum, press }) {
+function DetailsList({ weather, feels, wind, hum, press, unit }) {
   return (
     <Stack spacing={0}>
       <Box p={1}>
@@ -42,8 +42,10 @@ function DetailsList({ weather, feels, wind, hum, press }) {
             {feels}
           </Text>
           <Text as="strong" fontSize="sm" mt={0}>
-            {weather.main.feels_like}
+            {Math.round(weather.main.feels_like)} <Text as="sup">°</Text> {unit === 'metric' ? 'C' : 'F'}
           </Text>
+
+         
         </HStack>
 
         <HStack>
@@ -77,7 +79,7 @@ function DetailsList({ weather, feels, wind, hum, press }) {
   )
 }
 
-function WeatherWidget({ weather, unit, setUnit }) {
+function WeatherWidget({ weather, unit, setUnit, setIsWeatherLoading }) {
   const code = weather.weather[0].icon
   const icon = Images[code].path
   const alt = Images[code].alt
@@ -86,9 +88,11 @@ function WeatherWidget({ weather, unit, setUnit }) {
   const setToggle = e => {
     e.preventDefault()
     if (unit === 'metric') {
+      setIsWeatherLoading(true)
       setUnit('imperial')
       return true
     } else {
+      setIsWeatherLoading(true)
       setUnit('metric')
       return false
     }
@@ -128,13 +132,10 @@ function WeatherWidget({ weather, unit, setUnit }) {
           </HStack>
         </VStack>
 
-        <HStack
-          display={{ sm: 'flex' }}
-          spacing={0}
-        >
+        <HStack display={{ sm: 'flex' }} spacing={0}>
           <Center w="40%">
             <Text
-              fontSize={{ base:"50px", md: '60px', lg: '70px' }}
+              fontSize={{ base: '50px', md: '60px', lg: '70px' }}
               as="strong"
             >
               {Math.round(weather.main.temp)}
@@ -151,6 +152,7 @@ function WeatherWidget({ weather, unit, setUnit }) {
               hum="Humidity"
               press="Pressure"
               weather={weather}
+              unit={unit}
             />
           </Stack>
         </HStack>

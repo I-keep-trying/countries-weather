@@ -52,6 +52,7 @@ const Country = ({
         )
         setIsWeatherLoading(false)
         setIsLoading(false)
+
         setTimeout(() => {
           window.localStorage.removeItem(`${country.name} weather in metric`)
         }, 10000)
@@ -60,7 +61,6 @@ const Country = ({
         window.localStorage.getItem(`${country.name} weather in imperial`) !==
           null
       ) {
-        setIsWeatherLoading(true)
         setWeather(
           JSON.parse(
             window.localStorage.getItem(`${country.name} weather in imperial`)
@@ -74,7 +74,7 @@ const Country = ({
       } else {
         const lat = Math.round(country.latlng[0])
         const lon = Math.round(country.latlng[1])
-        setIsWeatherLoading(true)
+        !isWeatherLoading ? setIsWeatherLoading(true) : isWeatherLoading
 
         const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${process.env.REACT_APP_OPENWEATHER_KEY}&units=${unit}`
 
@@ -96,11 +96,9 @@ const Country = ({
     setRegion('All')
     setSubRegion('')
   }
-
+  //<img src={`/icons/${iconName}.png`} ... />
   return !isLoading ? (
     <>
-      {/*       <Container centerContent mt={100} mb={10}>
-       */}{' '}
       <Box mb={5}>
         <Button variant="ghost" onClick={reset}>
           Back
@@ -206,10 +204,10 @@ const Country = ({
             >
               {!isWeatherLoading ? (
                 <Weather
-                  country={country}
                   weather={weather}
                   unit={unit}
                   setUnit={setUnit}
+                  setIsWeatherLoading={setIsWeatherLoading}
                 />
               ) : (
                 <Text>Weather loading...</Text>
@@ -218,8 +216,6 @@ const Country = ({
           </TabPanel>
         </TabPanels>
       </Tabs>
-      {/*       </Container>
-       */}{' '}
     </>
   ) : (
     <Text>Loading... </Text>

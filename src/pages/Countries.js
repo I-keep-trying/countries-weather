@@ -24,9 +24,10 @@ const Countries = ({
   subregion,
   setRegion,
   setSubRegion,
+  isLoading,
+  setIsLoading,
 }) => {
   const [details, setDetails] = useState({})
-  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     if (countries.length === 1) {
@@ -57,7 +58,7 @@ const Countries = ({
   }
 
   if (countries.length === 1) {
-    return (
+    return !isLoading ? (
       <Country
         setInput={setInput}
         setRegion={setRegion}
@@ -66,6 +67,8 @@ const Countries = ({
         setSubRegion={setSubRegion}
         setIsLoading={setIsLoading}
       />
+    ) : (
+      <></>
     )
   }
 
