@@ -28,7 +28,6 @@ const Countries = ({
   const [details, setDetails] = useState({})
   const [isLoading, setIsLoading] = useState(true)
 
-  console.log('isLoading', isLoading)
   useEffect(() => {
     if (countries.length === 1) {
       axios
