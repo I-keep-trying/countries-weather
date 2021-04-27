@@ -1,1503 +1,2002 @@
 [
   {
-    "id": "RkqlnSgCBLp_iLl1U28ib",
+    "id": "FciU2aOh-pUBb2Jh9Rja_",
     "name": "Afghanistan",
+    "capital": "Kabul",
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "flag": "https://restcountries.eu/data/afg.svg"
   },
   {
-    "id": "VRaerkynyNbYV2ojeFE2J",
+    "id": "dcumrw-De-3XjwLUqvsPZ",
     "name": "Åland Islands",
+    "capital": "Mariehamn",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/ala.svg"
   },
-
   {
-    "id": "W7QE2s1k2qowgzl00qWKn",
+    "id": "8-YqU4vr0xsClCGiPeG4_",
     "name": "Albania",
+    "capital": "Tirana",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/alb.svg"
   },
   {
-    "id": "4KEMhviroaPLKn2wfmkAe",
+    "id": "6NlpUHROvPf5FL9y5Jt8Z",
     "name": "Algeria",
+    "capital": "Algiers",
     "region": "Africa",
-    "subregion": "Northern Africa"
+    "subregion": "Northern Africa",
+    "flag": "https://restcountries.eu/data/dza.svg"
   },
   {
-    "id": "wsMmOsi4_mOwC8zs4rjOb",
+    "id": "5ceu53Yh7ZeU255PapGCz",
     "name": "American Samoa",
+    "capital": "Pago Pago",
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "flag": "https://restcountries.eu/data/asm.svg"
   },
   {
-    "id": "G2RZsFtHR2pPlRZMX_OxR",
+    "id": "JnYeP2SNt8QCQ_ZFo_f2a",
     "name": "Andorra",
+    "capital": "Andorra la Vella",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/and.svg"
   },
   {
-    "id": "QWOGp97JSolcX8M43ABP1",
+    "id": "IkiZ7VIKU8lqq1wGCR5w4",
     "name": "Angola",
+    "capital": "Luanda",
     "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Middle Africa",
+    "flag": "https://restcountries.eu/data/ago.svg"
   },
   {
-    "id": "peumW3X0QnnOmjAOEpjxS",
+    "id": "hGa_3Nh8IMOAIZ9GOxbqD",
     "name": "Anguilla",
+    "capital": "The Valley",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/aia.svg"
   },
   {
-    "id": "62Ldy1Ydw76OvUk2gUDbs",
+    "id": "zcJ7nDZJJectaSL5GKNkY",
     "name": "Antarctica",
+    "capital": "",
     "region": "Polar",
-    "subregion": ""
+    "subregion": "",
+    "flag": "https://restcountries.eu/data/ata.svg"
   },
   {
-    "id": "73yPuXk1rCH-IWWxAGkQc",
+    "id": "dFVZNDOrVOpprVp6qUbfc",
     "name": "Antigua and Barbuda",
+    "capital": "Saint John's",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/atg.svg"
   },
   {
-    "id": "SBXiAtTTMp2mFRSS8-I0r",
+    "id": "KNHGp-haDa7lF08L-z0Je",
     "name": "Argentina",
+    "capital": "Buenos Aires",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/arg.svg"
   },
   {
-    "id": "JlEUJ2V-fUlNTsjlrRfv5",
+    "id": "6JAiP_K59pmUPuQauDsNH",
     "name": "Armenia",
+    "capital": "Yerevan",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/arm.svg"
   },
   {
-    "id": "VLfIg3bKgqim-7OFAp8lf",
+    "id": "JW56cjAPQH2il6ZvdIEP0",
     "name": "Aruba",
+    "capital": "Oranjestad",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/abw.svg"
   },
   {
-    "id": "3g3nxwQEjhbw2OzT8GBkL",
+    "id": "fHxSkkXJohfkzbxUketUl",
     "name": "Australia",
+    "capital": "Canberra",
     "region": "Oceania",
-    "subregion": "Australia and New Zealand"
+    "subregion": "Australia and New Zealand",
+    "flag": "https://restcountries.eu/data/aus.svg"
   },
   {
-    "id": "p_qOEtB5PKnnjHZ6g8VLS",
+    "id": "8P0K_0B1HZzVDolUeV8yR",
     "name": "Austria",
+    "capital": "Vienna",
     "region": "Europe",
-    "subregion": "Western Europe"
+    "subregion": "Western Europe",
+    "flag": "https://restcountries.eu/data/aut.svg"
   },
   {
-    "id": "bLzvgeOaAik83gdzCPpy7",
+    "id": "ld0ftuacPc6s_dnm_nssh",
     "name": "Azerbaijan",
+    "capital": "Baku",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/aze.svg"
   },
   {
-    "id": "RAStjjowSv7mciGKK-wmn",
+    "id": "e1qSqqBkjL7_oMIqDaOjM",
     "name": "Bahamas",
+    "capital": "Nassau",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/bhs.svg"
   },
   {
-    "id": "mifDTOqxgOX4OsyFEDGZr",
+    "id": "CCldr2v18dSk7C6kREaUu",
     "name": "Bahrain",
+    "capital": "Manama",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/bhr.svg"
   },
   {
-    "id": "b_U7uuven6NaVKLgbn2D7",
+    "id": "gV4CxyfVN6vI795xFN-1K",
     "name": "Bangladesh",
+    "capital": "Dhaka",
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "flag": "https://restcountries.eu/data/bgd.svg"
   },
   {
-    "id": "3DE77d4i2mbc_Tp05xzwI",
+    "id": "5PXoyZWnewni9cxe6O3RX",
     "name": "Barbados",
+    "capital": "Bridgetown",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/brb.svg"
   },
   {
-    "id": "_BN6F_h-1DfcO3ujbCOTZ",
+    "id": "ugXfTOi4_7I9mJNR1KUug",
     "name": "Belarus",
+    "capital": "Minsk",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/blr.svg"
   },
   {
-    "id": "klszE86to6lakpm4yAYyM",
+    "id": "dKlZ9DjQEX9V02kC5bX40",
     "name": "Belgium",
+    "capital": "Brussels",
     "region": "Europe",
-    "subregion": "Western Europe"
+    "subregion": "Western Europe",
+    "flag": "https://restcountries.eu/data/bel.svg"
   },
   {
-    "id": "EkmC8cJOjdCVhENfABWgD",
+    "id": "dy5-ryS97gqa6pYIZbET2",
     "name": "Belize",
+    "capital": "Belmopan",
     "region": "Americas",
-    "subregion": "Central America"
+    "subregion": "Central America",
+    "flag": "https://restcountries.eu/data/blz.svg"
   },
   {
-    "id": "kK-w_3As4rmRT2iN0HqXw",
+    "id": "KiU3QpiPArFbdlkatkXLZ",
     "name": "Benin",
+    "capital": "Porto-Novo",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/ben.svg"
   },
   {
-    "id": "E3GsKz_8_QgFJxZoQ8gzh",
+    "id": "EK2W6-kNQH0dJDMca2snl",
     "name": "Bermuda",
+    "capital": "Hamilton",
     "region": "Americas",
-    "subregion": "Northern America"
+    "subregion": "Northern America",
+    "flag": "https://restcountries.eu/data/bmu.svg"
   },
   {
-    "id": "jLDhZ7wzO9dQn2PAZP9DK",
+    "id": "LwHbt2PfeSbh-xuzl_hLo",
     "name": "Bhutan",
+    "capital": "Thimphu",
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "flag": "https://restcountries.eu/data/btn.svg"
   },
   {
-    "id": "u6ySoMd4JM4Fw_eU30XnC",
+    "id": "aKu-kDTHRKFOKBTpUsSAE",
     "name": "Bolivia (Plurinational State of)",
+    "capital": "Sucre",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/bol.svg"
   },
   {
-    "id": "GYADChCdgRDr7GYjRfmNF",
+    "id": "7zexR3uaGR-9QpUD-OSLO",
     "name": "Bonaire, Sint Eustatius and Saba",
+    "capital": "Kralendijk",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/bes.svg"
   },
   {
-    "id": "b9Cn-wQPUA_TfWcJAkE2_",
+    "id": "cTh-UqALtire75kLQfouE",
     "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/bih.svg"
   },
   {
-    "id": "V5ZHRXO4y7s2F_RStXMHl",
+    "id": "dLsHrnAQ95-Yy0mYzUFuM",
     "name": "Botswana",
+    "capital": "Gaborone",
     "region": "Africa",
-    "subregion": "Southern Africa"
+    "subregion": "Southern Africa",
+    "flag": "https://restcountries.eu/data/bwa.svg"
   },
   {
-    "id": "JYCzLhPvaT0XJ-SsyyiOo",
+    "id": "01R281hQk3OgsYm1bbHgc",
     "name": "Bouvet Island",
-    "region": "",
-    "subregion": ""
+    "capital": "",
+    "region": "Other",
+    "subregion": "",
+    "flag": "https://restcountries.eu/data/bvt.svg"
   },
   {
-    "id": "tq0sGyuY-mzNSksaHuvZ3",
+    "id": "J7g5ug2z0kcyUi5itD_Nq",
     "name": "Brazil",
+    "capital": "Brasília",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/bra.svg"
   },
   {
-    "id": "MRLeIf7Q6gfWYTGNrcrzB",
+    "id": "ypPNecXs5oBQDiaV-VcE1",
     "name": "British Indian Ocean Territory",
+    "capital": "Diego Garcia",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/iot.svg"
   },
   {
-    "id": "OVINt9vspZkdYDuDcvQwR",
+    "id": "A_8M-agRMQRfzWPyVa82l",
     "name": "United States Minor Outlying Islands",
+    "capital": "",
     "region": "Americas",
-    "subregion": "Northern America"
+    "subregion": "Northern America",
+    "flag": "https://restcountries.eu/data/umi.svg"
   },
   {
-    "id": "4hfQBuqJNXP67yXiVXKqu",
+    "id": "d9r2zWIn2ZQMUDVUUSyqk",
     "name": "Virgin Islands (British)",
+    "capital": "Road Town",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/vgb.svg"
   },
   {
-    "id": "BvQ6fU6dkOh03_AiwwePK",
+    "id": "YPSJr7b-OsGylK4Pkv9yp",
     "name": "Virgin Islands (U.S.)",
+    "capital": "Charlotte Amalie",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/vir.svg"
   },
   {
-    "id": "MAEOGTvqpH0ehGa-li8uw",
+    "id": "LZGk6sN35FtrkQnFBbJyi",
     "name": "Brunei Darussalam",
+    "capital": "Bandar Seri Begawan",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/brn.svg"
   },
   {
-    "id": "oFxTuB9230ltLY04IWD2V",
+    "id": "YP-jJt7lhH2Dd0zhlJoAt",
     "name": "Bulgaria",
+    "capital": "Sofia",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/bgr.svg"
   },
   {
-    "id": "0GJ9kCr36M2U-LVFE_aRx",
+    "id": "cYvgWHkABk8XvhahrvfsO",
     "name": "Burkina Faso",
+    "capital": "Ouagadougou",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/bfa.svg"
   },
   {
-    "id": "A9u8RS5GRuzvSXZYMrKxf",
+    "id": "2hj_KZtd7QPbuO7bn-qfI",
     "name": "Burundi",
+    "capital": "Bujumbura",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/bdi.svg"
   },
   {
-    "id": "AN0W_xKmAFXUXDbmTfqZH",
+    "id": "PtmisAwm9NortEQXVM6MH",
     "name": "Cambodia",
+    "capital": "Phnom Penh",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/khm.svg"
   },
   {
-    "id": "KHlRWObfTvdNSnJtlINJC",
+    "id": "ALGDPe2XnEzdvNmkK4b-Y",
     "name": "Cameroon",
+    "capital": "Yaoundé",
     "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Middle Africa",
+    "flag": "https://restcountries.eu/data/cmr.svg"
   },
   {
-    "id": "axleWj2eoz3XkLCVkpQaM",
+    "id": "dCuXXc04khzabXKa9G-qR",
     "name": "Canada",
+    "capital": "Ottawa",
     "region": "Americas",
-    "subregion": "Northern America"
+    "subregion": "Northern America",
+    "flag": "https://restcountries.eu/data/can.svg"
   },
   {
-    "id": "kmQFjfQaAOTO3cQQV4EHJ",
+    "id": "bRPr1O19f5wJ3fXvZkqTB",
     "name": "Cabo Verde",
+    "capital": "Praia",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/cpv.svg"
   },
   {
-    "id": "TpC511lFk3afBpaEQqW_B",
+    "id": "wfXTutvUJMnUCKIO8728z",
     "name": "Cayman Islands",
+    "capital": "George Town",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/cym.svg"
   },
   {
-    "id": "Nk3sSv2EEDtzpED4bqD7H",
+    "id": "NYuKTbn5e7dDkPEAsclwd",
     "name": "Central African Republic",
+    "capital": "Bangui",
     "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Middle Africa",
+    "flag": "https://restcountries.eu/data/caf.svg"
   },
   {
-    "id": "FCFx2vF7yvebEwOII2YLS",
+    "id": "_z_4mw-jJ_q-2RBNzo4zM",
     "name": "Chad",
+    "capital": "N'Djamena",
     "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Middle Africa",
+    "flag": "https://restcountries.eu/data/tcd.svg"
   },
   {
-    "id": "DWeTuCbpjQccnwybtTXPN",
+    "id": "3v_B7BwcgtsonjAZe56Px",
     "name": "Chile",
+    "capital": "Santiago",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/chl.svg"
   },
   {
-    "id": "CyNjGZv8z5C3hWKqzaxR6",
+    "id": "30Xd0OI3OO_six2GE0OZH",
     "name": "China",
+    "capital": "Beijing",
     "region": "Asia",
-    "subregion": "Eastern Asia"
+    "subregion": "Eastern Asia",
+    "flag": "https://restcountries.eu/data/chn.svg"
   },
   {
-    "id": "OT7CNMv1HnMdDvvMuoaOE",
+    "id": "_q89OGsiuxcQU9NPZ2LuM",
     "name": "Christmas Island",
+    "capital": "Flying Fish Cove",
     "region": "Oceania",
-    "subregion": "Australia and New Zealand"
+    "subregion": "Australia and New Zealand",
+    "flag": "https://restcountries.eu/data/cxr.svg"
   },
   {
-    "id": "BroZYaH4SniLQEjzGDtDE",
+    "id": "WKZRUy6VINM-8Y5NsK4CQ",
     "name": "Cocos (Keeling) Islands",
+    "capital": "West Island",
     "region": "Oceania",
-    "subregion": "Australia and New Zealand"
+    "subregion": "Australia and New Zealand",
+    "flag": "https://restcountries.eu/data/cck.svg"
   },
   {
-    "id": "QBdGtonMKtX7rYH2n9CDE",
+    "id": "dhUNvhWa_gqNNfloLDCJj",
     "name": "Colombia",
+    "capital": "Bogotá",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/col.svg"
   },
   {
-    "id": "S5Z-br67UVs8B2YM89rxL",
+    "id": "fMatI7ERj7wzDbUOOdbot",
     "name": "Comoros",
+    "capital": "Moroni",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/com.svg"
   },
   {
-    "id": "PXzDgHdx9rBbIL_CYphvB",
+    "id": "PwtfigUMR9fyaVRkDxvZj",
     "name": "Congo",
+    "capital": "Brazzaville",
     "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Middle Africa",
+    "flag": "https://restcountries.eu/data/cog.svg"
   },
   {
-    "id": "-wj9z_bmaMU4vTUNDa77x",
+    "id": "iYlYU2o7Aoaa2H0D9XSF4",
     "name": "Congo (Democratic Republic of the)",
+    "capital": "Kinshasa",
     "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Middle Africa",
+    "flag": "https://restcountries.eu/data/cod.svg"
   },
   {
-    "id": "0qJlsm5YxCQSMEfIt2flu",
+    "id": "-xVJpI9iCPE0sWZ16SXFG",
     "name": "Cook Islands",
+    "capital": "Avarua",
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "flag": "https://restcountries.eu/data/cok.svg"
   },
   {
-    "id": "Z-3l1_nBFo7oha8N8loNR",
+    "id": "rZmQCpBWMVIrOuSHfNtP4",
     "name": "Costa Rica",
+    "capital": "San José",
     "region": "Americas",
-    "subregion": "Central America"
+    "subregion": "Central America",
+    "flag": "https://restcountries.eu/data/cri.svg"
   },
   {
-    "id": "F1Op9W1qhhVIcLZ3Nj_a0",
+    "id": "i_XRX2lg1PAX7zSHemQ2f",
     "name": "Croatia",
+    "capital": "Zagreb",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/hrv.svg"
   },
   {
-    "id": "4ZD6O5_ZsMcRmi8Q9S1C8",
+    "id": "iw4f0-cVrjhu11zDVs2Qf",
     "name": "Cuba",
+    "capital": "Havana",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/cub.svg"
   },
   {
-    "id": "3KuDLMbBPlmHk82ioqRv8",
+    "id": "vUHt22WcUmqoEsGaYyRnu",
     "name": "Curaçao",
+    "capital": "Willemstad",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/cuw.svg"
   },
   {
-    "id": "oFEmGUuexFMHet1GUZGH9",
+    "id": "AtHqOPSVD8K6iD-M0vK2h",
     "name": "Cyprus",
+    "capital": "Nicosia",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/cyp.svg"
   },
   {
-    "id": "4Hd2cQ3X41UhcHmr_YhWn",
+    "id": "sWWfNI0p6XlBo1mCBV9UZ",
     "name": "Czech Republic",
+    "capital": "Prague",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/cze.svg"
   },
   {
-    "id": "hJ_cYv_t1OwsCiT_tSuQi",
+    "id": "D4Zt0CRhs8XOXCkbeY2ZO",
     "name": "Denmark",
+    "capital": "Copenhagen",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/dnk.svg"
   },
   {
-    "id": "qXi3TGuN4a0jnkpdb8KyE",
+    "id": "Bj_ZzvMUEQxM7T3JZFySh",
     "name": "Djibouti",
+    "capital": "Djibouti",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/dji.svg"
   },
   {
-    "id": "VOQsEa5S97Ol8NkGEcZj-",
+    "id": "oUSeCCqSSzBtI51YdajWg",
     "name": "Dominica",
+    "capital": "Roseau",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/dma.svg"
   },
   {
-    "id": "ymjCK6xOca_py7rnbpWbo",
+    "id": "tjNwoxrzVVPc5mqwGBfFS",
     "name": "Dominican Republic",
+    "capital": "Santo Domingo",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/dom.svg"
   },
   {
-    "id": "X2zUC94hOv-PcoM6h9rEY",
+    "id": "eJAXzowYqukac1tidnDfR",
     "name": "Ecuador",
+    "capital": "Quito",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/ecu.svg"
   },
   {
-    "id": "ZyHRKeEXJxbjF3gtzoo3r",
+    "id": "6UeX7l_B70W5cYAov_jip",
     "name": "Egypt",
+    "capital": "Cairo",
     "region": "Africa",
-    "subregion": "Northern Africa"
+    "subregion": "Northern Africa",
+    "flag": "https://restcountries.eu/data/egy.svg"
   },
   {
-    "id": "DA6PrCsJ3VuW4m5ncI-oI",
+    "id": "hyxFv2yOA6uEP4la9SDxg",
     "name": "El Salvador",
+    "capital": "San Salvador",
     "region": "Americas",
-    "subregion": "Central America"
+    "subregion": "Central America",
+    "flag": "https://restcountries.eu/data/slv.svg"
   },
   {
-    "id": "8F7e4m44XwlegUCA1gXCF",
+    "id": "1STAi6TCaDVpJHIMm2y9c",
     "name": "Equatorial Guinea",
+    "capital": "Malabo",
     "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Middle Africa",
+    "flag": "https://restcountries.eu/data/gnq.svg"
   },
   {
-    "id": "Cv77HxovDaOg6bpmTzvvc",
+    "id": "GLXKtAc-y0MzEGvhpEY7l",
     "name": "Eritrea",
+    "capital": "Asmara",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/eri.svg"
   },
   {
-    "id": "oXyXpAJ1zNt3OKAVQ5L3V",
+    "id": "AHPMyoJUkRiOHr3i2bl3V",
     "name": "Estonia",
+    "capital": "Tallinn",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/est.svg"
   },
   {
-    "id": "C7T220fOnG6VmBpKMcr4d",
+    "id": "UlGqvkq0p_DzOxDaxvzHX",
     "name": "Ethiopia",
+    "capital": "Addis Ababa",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/eth.svg"
   },
   {
-    "id": "eE1WzkRfBF6xnmDRWM6nD",
+    "id": "rpAZ8UcVYxL7FgGuvI5dc",
     "name": "Falkland Islands (Malvinas)",
+    "capital": "Stanley",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/flk.svg"
   },
   {
-    "id": "bzN9L0omhpxc3meI0t695",
+    "id": "G0LjWx4ldsHCRjLpQrxbE",
     "name": "Faroe Islands",
+    "capital": "Tórshavn",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/fro.svg"
   },
   {
-    "id": "QM2DZ66O7pWceefZ-Vpre",
+    "id": "z8suUf2k7FVyj870Y9PF5",
     "name": "Fiji",
+    "capital": "Suva",
     "region": "Oceania",
-    "subregion": "Melanesia"
+    "subregion": "Melanesia",
+    "flag": "https://restcountries.eu/data/fji.svg"
   },
   {
-    "id": "Osqr8p0s-TYWp6YJxFnDX",
+    "id": "_b6AW3l35CvO3M0-cLVJb",
     "name": "Finland",
+    "capital": "Helsinki",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/fin.svg"
   },
   {
-    "id": "dZIfR9tcZquqauyzQyqL6",
+    "id": "dA-stbaEzzP4fb1OQqPiy",
     "name": "France",
+    "capital": "Paris",
     "region": "Europe",
-    "subregion": "Western Europe"
+    "subregion": "Western Europe",
+    "flag": "https://restcountries.eu/data/fra.svg"
   },
   {
-    "id": "3na8Xefo-LRhtl0qvN5mz",
+    "id": "PTILJgJzYbQpgRrDqTUr-",
     "name": "French Guiana",
+    "capital": "Cayenne",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/guf.svg"
   },
   {
-    "id": "QcqaOPGVUQmys9uTxYPMD",
+    "id": "WNydTdh6LrimqPL3s4Cxd",
     "name": "French Polynesia",
+    "capital": "Papeetē",
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "flag": "https://restcountries.eu/data/pyf.svg"
   },
   {
-    "id": "e-W7HP3V7BoDdBVCBYlw4",
+    "id": "Hz4IkV5T7qIspXA3hnRcL",
     "name": "French Southern Territories",
+    "capital": "Port-aux-Français",
     "region": "Africa",
-    "subregion": "Southern Africa"
+    "subregion": "Southern Africa",
+    "flag": "https://restcountries.eu/data/atf.svg"
   },
   {
-    "id": "LCecDPonXxWJgfQWXwRWW",
+    "id": "Ot8PZKyyVA5pl3kMEHlUC",
     "name": "Gabon",
+    "capital": "Libreville",
     "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Middle Africa",
+    "flag": "https://restcountries.eu/data/gab.svg"
   },
   {
-    "id": "O5hsvJNDUqYckrDfDbk_G",
+    "id": "4hoDW2DGT4qlAuJ74J0lK",
     "name": "Gambia",
+    "capital": "Banjul",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/gmb.svg"
   },
   {
-    "id": "BOG3fzB_4l8-0YHH_Bz3V",
+    "id": "Zulx7C7uYp6-UhXCTK0U_",
     "name": "Georgia",
+    "capital": "Tbilisi",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/geo.svg"
   },
   {
-    "id": "L_A_BpO--3KiGaQaYCT-n",
+    "id": "awW1ios5cihKEyXHdgqs4",
     "name": "Germany",
+    "capital": "Berlin",
     "region": "Europe",
-    "subregion": "Western Europe"
+    "subregion": "Western Europe",
+    "flag": "https://restcountries.eu/data/deu.svg"
   },
   {
-    "id": "9bd5vwSkNXc2CjCOjxxM2",
+    "id": "eDheBJNcb4m6X521plTv9",
     "name": "Ghana",
+    "capital": "Accra",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/gha.svg"
   },
   {
-    "id": "wWt8_AraYGX5v-Lev6sSO",
+    "id": "Ie57kXIUH-FsZAle1zj4-",
     "name": "Gibraltar",
+    "capital": "Gibraltar",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/gib.svg"
   },
   {
-    "id": "ulT16wVRlTPcM2hM8MXMh",
+    "id": "7CKduPjgzoJF5WarIbeVs",
     "name": "Greece",
+    "capital": "Athens",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/grc.svg"
   },
   {
-    "id": "qUjAW19mRkgrlVQvGJrh3",
+    "id": "0gVzXjyEJcpRjghFMnaaP",
     "name": "Greenland",
+    "capital": "Nuuk",
     "region": "Americas",
-    "subregion": "Northern America"
+    "subregion": "Northern America",
+    "flag": "https://restcountries.eu/data/grl.svg"
   },
   {
-    "id": "3xDHc6GauJ60Yxq04vrei",
+    "id": "2PO0z_uXDNqAFXleiZ5Bh",
     "name": "Grenada",
+    "capital": "St. George's",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/grd.svg"
   },
   {
-    "id": "JgddL8XcYgnPyK5tuRd4O",
+    "id": "J1KoehZ2pfjA1qfNW_9me",
     "name": "Guadeloupe",
+    "capital": "Basse-Terre",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/glp.svg"
   },
   {
-    "id": "JpIYXRdR6jv9V3NeSLebG",
+    "id": "oDDdUSMn_9aTnj5DDuveJ",
     "name": "Guam",
+    "capital": "Hagåtña",
     "region": "Oceania",
-    "subregion": "Micronesia"
+    "subregion": "Micronesia",
+    "flag": "https://restcountries.eu/data/gum.svg"
   },
   {
-    "id": "326N12ukIE-SJXHknIrL6",
+    "id": "LDRd02xKpjxmFAqUSu0x7",
     "name": "Guatemala",
+    "capital": "Guatemala City",
     "region": "Americas",
-    "subregion": "Central America"
+    "subregion": "Central America",
+    "flag": "https://restcountries.eu/data/gtm.svg"
   },
   {
-    "id": "mApNIPcX6VYBGQPLaJUyP",
+    "id": "WEfv31b50V1b6186YCqQW",
     "name": "Guernsey",
+    "capital": "St. Peter Port",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/ggy.svg"
   },
   {
-    "id": "XTqAVdU_sTtLfN760nDSv",
+    "id": "5CA0xu4XyEn8YIqx_Iu5w",
     "name": "Guinea",
+    "capital": "Conakry",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/gin.svg"
   },
   {
-    "id": "kI5qG8LmcznEtIiTaHiTa",
+    "id": "4iKtjojNy9hSs5JAqYjaJ",
     "name": "Guinea-Bissau",
+    "capital": "Bissau",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/gnb.svg"
   },
   {
-    "id": "fohiG04uBw4IVRExpOENc",
+    "id": "6WxAZo8CqEXzsA9E0znSf",
     "name": "Guyana",
+    "capital": "Georgetown",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/guy.svg"
   },
   {
-    "id": "Tf-OTRw2Z-np50On0_Snx",
+    "id": "SBTyqSs8mEZdcgeZZKDnJ",
     "name": "Haiti",
+    "capital": "Port-au-Prince",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/hti.svg"
   },
   {
-    "id": "7FH3D5Hz8sE4sxVESOXNC",
+    "id": "aFud6khAYQnUnzSa0zvmY",
     "name": "Heard Island and McDonald Islands",
-    "region": "",
-    "subregion": ""
+    "capital": "",
+    "region": "Other",
+    "subregion": "",
+    "flag": "https://restcountries.eu/data/hmd.svg"
   },
   {
-    "id": "wfQ89e5RRjdCyQuTDQHw5",
+    "id": "FxoWg7fM_DcMRBJmXsY5l",
     "name": "Holy See",
+    "capital": "Rome",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/vat.svg"
   },
   {
-    "id": "aEHZsXUnZSeBs_D4iXWJk",
+    "id": "J0SanUGwNlrE0u-t-mP0K",
     "name": "Honduras",
+    "capital": "Tegucigalpa",
     "region": "Americas",
-    "subregion": "Central America"
+    "subregion": "Central America",
+    "flag": "https://restcountries.eu/data/hnd.svg"
   },
   {
-    "id": "4ZHg5vULqnasM9yFiYHJf",
+    "id": "sG0zbITRfs8WVm3q8HDp9",
     "name": "Hong Kong",
+    "capital": "City of Victoria",
     "region": "Asia",
-    "subregion": "Eastern Asia"
+    "subregion": "Eastern Asia",
+    "flag": "https://restcountries.eu/data/hkg.svg"
   },
   {
-    "id": "RZEgXsSDxTK7lys58Bq8F",
+    "id": "Gph4DyLGwr18BiHWxS5Gc",
     "name": "Hungary",
+    "capital": "Budapest",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/hun.svg"
   },
   {
-    "id": "-EApKfgI6Qg2h5UyvcQcr",
+    "id": "-9ptxjAlgIRFihnES5EBy",
     "name": "Iceland",
+    "capital": "Reykjavík",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/isl.svg"
   },
   {
-    "id": "IfDBeogKhSVizLRIf5avn",
+    "id": "SQ4qHGF_465fh2CVsDUas",
     "name": "India",
+    "capital": "New Delhi",
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "flag": "https://restcountries.eu/data/ind.svg"
   },
   {
-    "id": "npbmrRXT4VAa7gsCD2JFW",
+    "id": "j0P8ujHSyZbuc3J5mSCFG",
     "name": "Indonesia",
+    "capital": "Jakarta",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/idn.svg"
   },
   {
-    "id": "cl31ZsIY6PZEvCO4Ri8Ni",
+    "id": "Bzg8yiN0xgp7dkhMQGx_a",
     "name": "Côte d'Ivoire",
+    "capital": "Yamoussoukro",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/civ.svg"
   },
   {
-    "id": "pJLiwo0iS7ZaLXcx3_2nw",
+    "id": "l167QFpNX65PBiS0Y-C4B",
     "name": "Iran (Islamic Republic of)",
+    "capital": "Tehran",
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "flag": "https://restcountries.eu/data/irn.svg"
   },
   {
-    "id": "bVQdBOlUlV8EV9hL0YKVe",
+    "id": "b4qK_i3xhLwu03QRB2bTA",
     "name": "Iraq",
+    "capital": "Baghdad",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/irq.svg"
   },
   {
-    "id": "gbcROXiYoictaCYnKa0Zj",
+    "id": "-RMfP0hLgnAwNzUcINg6K",
     "name": "Ireland",
+    "capital": "Dublin",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/irl.svg"
   },
   {
-    "id": "Bn0J9OlA5vVfJ2KZKo4NC",
+    "id": "uCFmlNu317W_FFPcwa9KL",
     "name": "Isle of Man",
+    "capital": "Douglas",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/imn.svg"
   },
   {
-    "id": "dfEYG-bnfmwZvojuWYQMv",
+    "id": "IaF_2i0W3-Gj0-fpr93pu",
     "name": "Israel",
+    "capital": "Jerusalem",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/isr.svg"
   },
   {
-    "id": "7_HcEivyc7UfWjF7PYqwg",
+    "id": "A-J0G-rur3fHmP-pvpoyF",
     "name": "Italy",
+    "capital": "Rome",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/ita.svg"
   },
   {
-    "id": "WxOsOwDK46uV-7vw45uiq",
+    "id": "G48CwkSNLjnaLyVsyRKOQ",
     "name": "Jamaica",
+    "capital": "Kingston",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/jam.svg"
   },
   {
-    "id": "f2kM0lgYuWBJxCEnymowd",
+    "id": "Te6LKQnfS_0PB6DwNSXgG",
     "name": "Japan",
+    "capital": "Tokyo",
     "region": "Asia",
-    "subregion": "Eastern Asia"
+    "subregion": "Eastern Asia",
+    "flag": "https://restcountries.eu/data/jpn.svg"
   },
   {
-    "id": "mDbasXVgJ8m32xqv3fg-q",
+    "id": "1Oj_y0-TMVr3VBtpjR1GC",
     "name": "Jersey",
+    "capital": "Saint Helier",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/jey.svg"
   },
   {
-    "id": "_jhKbR5k7OIaqP7gDWbcm",
+    "id": "AR5F8raXrtX8Y87iilLXK",
     "name": "Jordan",
+    "capital": "Amman",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/jor.svg"
   },
   {
-    "id": "TAWZ6QB5eZ1fQH5xLsYqr",
+    "id": "gV1Ux-IN-dGY-JW1d6cgn",
     "name": "Kazakhstan",
+    "capital": "Astana",
     "region": "Asia",
-    "subregion": "Central Asia"
+    "subregion": "Central Asia",
+    "flag": "https://restcountries.eu/data/kaz.svg"
   },
   {
-    "id": "1pMR7ctnP7mefy51ZtPvZ",
+    "id": "onAt_rs6KnNNCX82dW0TD",
     "name": "Kenya",
+    "capital": "Nairobi",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/ken.svg"
   },
   {
-    "id": "D6tyg0Ny3pekY5MsjBLDb",
+    "id": "L7tTnWz35IVrxPPbcipwt",
     "name": "Kiribati",
+    "capital": "South Tarawa",
     "region": "Oceania",
-    "subregion": "Micronesia"
+    "subregion": "Micronesia",
+    "flag": "https://restcountries.eu/data/kir.svg"
   },
   {
-    "id": "xdhzmX3Oov4rQ-bbW50vq",
+    "id": "sTL58vo5pwP2760h1CSzM",
     "name": "Kuwait",
+    "capital": "Kuwait City",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/kwt.svg"
   },
   {
-    "id": "7DzNwWAErNAQ6IXtJkjeE",
+    "id": "oJtg3a2OrrWZAQWy9CqKM",
     "name": "Kyrgyzstan",
+    "capital": "Bishkek",
     "region": "Asia",
-    "subregion": "Central Asia"
+    "subregion": "Central Asia",
+    "flag": "https://restcountries.eu/data/kgz.svg"
   },
   {
-    "id": "mN-e1qMt-BXdfhbum5km9",
+    "id": "Eqso_tRw_kn6ZCMt2IeF_",
     "name": "Lao People's Democratic Republic",
+    "capital": "Vientiane",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/lao.svg"
   },
   {
-    "id": "ZOiBuFmUAZzp05hZPGixt",
+    "id": "bNtdOPYzuJlbxqe058q5_",
     "name": "Latvia",
+    "capital": "Riga",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/lva.svg"
   },
   {
-    "id": "QBen-h4LgevxHxLca9CBv",
+    "id": "dfV539Y3y-CpLThVRy1sn",
     "name": "Lebanon",
+    "capital": "Beirut",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/lbn.svg"
   },
   {
-    "id": "h81YHb6vf34-uMJrp9hEZ",
+    "id": "5muO0lCHvmjFmXCuxMhR2",
     "name": "Lesotho",
+    "capital": "Maseru",
     "region": "Africa",
-    "subregion": "Southern Africa"
+    "subregion": "Southern Africa",
+    "flag": "https://restcountries.eu/data/lso.svg"
   },
   {
-    "id": "9tUhl7H4XxqtP_NiVYEt7",
+    "id": "_N9Rd01MoVqSrMiqI3hjU",
     "name": "Liberia",
+    "capital": "Monrovia",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/lbr.svg"
   },
   {
-    "id": "rab5L3O9BcvFM2Xa0kFmM",
+    "id": "WRZLwzpCFLROZtRw0wiAs",
     "name": "Libya",
+    "capital": "Tripoli",
     "region": "Africa",
-    "subregion": "Northern Africa"
+    "subregion": "Northern Africa",
+    "flag": "https://restcountries.eu/data/lby.svg"
   },
   {
-    "id": "PBQhrQPSMZPW5LGOjS3FO",
+    "id": "k403iaIlb4g1XirbUtFAG",
     "name": "Liechtenstein",
+    "capital": "Vaduz",
     "region": "Europe",
-    "subregion": "Western Europe"
+    "subregion": "Western Europe",
+    "flag": "https://restcountries.eu/data/lie.svg"
   },
   {
-    "id": "bRVIReA5mi9O0OhamcCqd",
+    "id": "ieYYzMuIBLQm-d_3YRXHY",
     "name": "Lithuania",
+    "capital": "Vilnius",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/ltu.svg"
   },
   {
-    "id": "89OvQWNRKbH1WV-Be1Ed2",
+    "id": "AeRVK4J4vBme2GeKIntWd",
     "name": "Luxembourg",
+    "capital": "Luxembourg",
     "region": "Europe",
-    "subregion": "Western Europe"
+    "subregion": "Western Europe",
+    "flag": "https://restcountries.eu/data/lux.svg"
   },
   {
-    "id": "JFvzMOBfpItj-EksK6e2Y",
+    "id": "TamorAjB-64TRtUBBu4XW",
     "name": "Macao",
+    "capital": "",
     "region": "Asia",
-    "subregion": "Eastern Asia"
+    "subregion": "Eastern Asia",
+    "flag": "https://restcountries.eu/data/mac.svg"
   },
   {
-    "id": "8L8lQlwJTpY1aWWWmxl8T",
+    "id": "5lt48gR95SfE-3a0bSAy0",
     "name": "Macedonia (the former Yugoslav Republic of)",
+    "capital": "Skopje",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/mkd.svg"
   },
   {
-    "id": "O0dO3Hj-qWIQ0kJk_vOSw",
+    "id": "LLOk9rViIxn_FCNGrjkBP",
     "name": "Madagascar",
+    "capital": "Antananarivo",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/mdg.svg"
   },
   {
-    "id": "AXQnlYrOZJsiu28LWkeLM",
+    "id": "d7RJwFhNvhAePm1QYoTwP",
     "name": "Malawi",
+    "capital": "Lilongwe",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/mwi.svg"
   },
   {
-    "id": "wBSd3nhmYwfljkGf1yzoV",
+    "id": "wNF6zT7CQWnGwTgXYGINR",
     "name": "Malaysia",
+    "capital": "Kuala Lumpur",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/mys.svg"
   },
   {
-    "id": "2vIMC22w2z8Kgwr6buPI-",
+    "id": "aqj6NMQAJWCpc0UYXKTw3",
     "name": "Maldives",
+    "capital": "Malé",
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "flag": "https://restcountries.eu/data/mdv.svg"
   },
   {
-    "id": "q8sLQDXtIcWde0uPWg01g",
+    "id": "qtFR6SnYg0_83SUQqvAUZ",
     "name": "Mali",
+    "capital": "Bamako",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/mli.svg"
   },
   {
-    "id": "CM8ExMuiWO2n0AWuDdhUo",
+    "id": "ywZVEaYyJ37-DEpzX1nOT",
     "name": "Malta",
+    "capital": "Valletta",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/mlt.svg"
   },
   {
-    "id": "ZLB82YDuBvJJCrkCwKSuF",
+    "id": "khEr7CLBZxxfujVgQ9D8z",
     "name": "Marshall Islands",
+    "capital": "Majuro",
     "region": "Oceania",
-    "subregion": "Micronesia"
+    "subregion": "Micronesia",
+    "flag": "https://restcountries.eu/data/mhl.svg"
   },
   {
-    "id": "RRFWjhR090tkeB3FhvlHz",
+    "id": "05TqY5kw3i5DfWSLC4VGj",
     "name": "Martinique",
+    "capital": "Fort-de-France",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/mtq.svg"
   },
   {
-    "id": "2eAVr39ec9WjD5D9Hn2xV",
+    "id": "kSAuLkElvkmfnneC_9lNn",
     "name": "Mauritania",
+    "capital": "Nouakchott",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/mrt.svg"
   },
   {
-    "id": "-0_VcKdrKMbSsZB5IR8MO",
+    "id": "HQm-wtPfhAPylDkePsi7p",
     "name": "Mauritius",
+    "capital": "Port Louis",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/mus.svg"
   },
   {
-    "id": "BnTN-NZu97fVFCwS_CANf",
+    "id": "juuBvNHUSmt_Xb79OWy_f",
     "name": "Mayotte",
+    "capital": "Mamoudzou",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/myt.svg"
   },
   {
-    "id": "8NGgwRVboWWDzD1S_tbEc",
+    "id": "0a8hzGVtSlKDw6NSRAsBY",
     "name": "Mexico",
+    "capital": "Mexico City",
     "region": "Americas",
-    "subregion": "Central America"
+    "subregion": "Central America",
+    "flag": "https://restcountries.eu/data/mex.svg"
   },
   {
-    "id": "WV1yDUT6Dw2eGdzGakwUc",
+    "id": "2mQCMO_hWHQULTD_tH2R-",
     "name": "Micronesia (Federated States of)",
+    "capital": "Palikir",
     "region": "Oceania",
-    "subregion": "Micronesia"
+    "subregion": "Micronesia",
+    "flag": "https://restcountries.eu/data/fsm.svg"
   },
   {
-    "id": "X0MgJEkJkiiTjuAfcx9wI",
+    "id": "hME4jy_qY0_qDv2AyTEYk",
     "name": "Moldova (Republic of)",
+    "capital": "Chișinău",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/mda.svg"
   },
   {
-    "id": "PinFtuXhJAEOeJumHISEb",
+    "id": "VL8jwC4V6Ug18JAGkYR5A",
     "name": "Monaco",
+    "capital": "Monaco",
     "region": "Europe",
-    "subregion": "Western Europe"
+    "subregion": "Western Europe",
+    "flag": "https://restcountries.eu/data/mco.svg"
   },
   {
-    "id": "ZiyJ8_s_QYwPmSbqQHEgu",
+    "id": "S9o8bc2db92aA5ysQuxPF",
     "name": "Mongolia",
+    "capital": "Ulan Bator",
     "region": "Asia",
-    "subregion": "Eastern Asia"
+    "subregion": "Eastern Asia",
+    "flag": "https://restcountries.eu/data/mng.svg"
   },
   {
-    "id": "h5DRpivAh8yPfCT7s8Yt5",
+    "id": "mfDWd8WuQ6Grofbolw9eb",
     "name": "Montenegro",
+    "capital": "Podgorica",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/mne.svg"
   },
   {
-    "id": "vaRlqgPHuaa_mvUS5uHl5",
+    "id": "-0CICHN271Lxu49V27UHv",
     "name": "Montserrat",
+    "capital": "Plymouth",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/msr.svg"
   },
   {
-    "id": "vxFSzP2e1V3ew2m5eBbPh",
+    "id": "GasraJn1mss1lhYG7giB8",
     "name": "Morocco",
+    "capital": "Rabat",
     "region": "Africa",
-    "subregion": "Northern Africa"
+    "subregion": "Northern Africa",
+    "flag": "https://restcountries.eu/data/mar.svg"
   },
   {
-    "id": "4ptupHT-evKA5qb3ma2wC",
+    "id": "8bLl5fgQf-J7tr-eQeG2-",
     "name": "Mozambique",
+    "capital": "Maputo",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/moz.svg"
   },
   {
-    "id": "1z3OD90LwEhJ7_o1esjIb",
+    "id": "sf1H_gs34j_6wEto6mdhY",
     "name": "Myanmar",
+    "capital": "Naypyidaw",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/mmr.svg"
   },
   {
-    "id": "7Gr9ik7Gb8LvCoXT6tkBC",
+    "id": "gyBdNDDP1q48S9UGzBgk2",
     "name": "Namibia",
+    "capital": "Windhoek",
     "region": "Africa",
-    "subregion": "Southern Africa"
+    "subregion": "Southern Africa",
+    "flag": "https://restcountries.eu/data/nam.svg"
   },
   {
-    "id": "ymtuFyvatLVRSsYdUCd7A",
+    "id": "9dRR0c2Oc4p0hYREUjZ8u",
     "name": "Nauru",
+    "capital": "Yaren",
     "region": "Oceania",
-    "subregion": "Micronesia"
+    "subregion": "Micronesia",
+    "flag": "https://restcountries.eu/data/nru.svg"
   },
   {
-    "id": "RHB-feCHgBK0h2IFYkvZA",
+    "id": "BOlPRgBvqmz92l5eN0eFc",
     "name": "Nepal",
+    "capital": "Kathmandu",
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "flag": "https://restcountries.eu/data/npl.svg"
   },
   {
-    "id": "ljNCdjckY6ukwVd290EH1",
+    "id": "4hUCcAsoHL4_lR1Te0EBi",
     "name": "Netherlands",
+    "capital": "Amsterdam",
     "region": "Europe",
-    "subregion": "Western Europe"
+    "subregion": "Western Europe",
+    "flag": "https://restcountries.eu/data/nld.svg"
   },
   {
-    "id": "wYdNwW7OW4NmWOWi_G_x4",
+    "id": "I7gf1Z7WFKwdIoOvIGf4i",
     "name": "New Caledonia",
+    "capital": "Nouméa",
     "region": "Oceania",
-    "subregion": "Melanesia"
+    "subregion": "Melanesia",
+    "flag": "https://restcountries.eu/data/ncl.svg"
   },
   {
-    "id": "uJBZM5L9REMXj5c3gdy1R",
+    "id": "PhfcA1JmVsuR8iD6J3D1D",
     "name": "New Zealand",
+    "capital": "Wellington",
     "region": "Oceania",
-    "subregion": "Australia and New Zealand"
+    "subregion": "Australia and New Zealand",
+    "flag": "https://restcountries.eu/data/nzl.svg"
   },
   {
-    "id": "cP6a35-Wsp4-l5AJoW4vQ",
+    "id": "IqK-c7il6I23vMaPHd8EM",
     "name": "Nicaragua",
+    "capital": "Managua",
     "region": "Americas",
-    "subregion": "Central America"
+    "subregion": "Central America",
+    "flag": "https://restcountries.eu/data/nic.svg"
   },
   {
-    "id": "dv-K-5JAGp4XRs72oWRkj",
+    "id": "So_XGwL6Tbk9zybm53_ay",
     "name": "Niger",
+    "capital": "Niamey",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/ner.svg"
   },
   {
-    "id": "uGwYGJPIm_ziQqkp9Hfk6",
+    "id": "XuNM4XAE6oWxYUeD7CWUm",
     "name": "Nigeria",
+    "capital": "Abuja",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/nga.svg"
   },
   {
-    "id": "BzXGP5FR7cQHuZqUwFYoU",
+    "id": "EMm24FhqMgKBICtI9k7G2",
     "name": "Niue",
+    "capital": "Alofi",
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "flag": "https://restcountries.eu/data/niu.svg"
   },
   {
-    "id": "uUKj6sYPxBK-7VqZtAx9b",
+    "id": "qlYP9Ui5uvqr4I6ImIQZ2",
     "name": "Norfolk Island",
+    "capital": "Kingston",
     "region": "Oceania",
-    "subregion": "Australia and New Zealand"
+    "subregion": "Australia and New Zealand",
+    "flag": "https://restcountries.eu/data/nfk.svg"
   },
   {
-    "id": "jSkaPa5R6Ew0J3bLNw6B7",
+    "id": "WWlwE-tKjDMViy4jy4qJd",
     "name": "Korea (Democratic People's Republic of)",
+    "capital": "Pyongyang",
     "region": "Asia",
-    "subregion": "Eastern Asia"
+    "subregion": "Eastern Asia",
+    "flag": "https://restcountries.eu/data/prk.svg"
   },
   {
-    "id": "OVfAM0AbhUqqnhfIX-A5B",
+    "id": "EXrAko_DTmLboFfF_nvuk",
     "name": "Northern Mariana Islands",
+    "capital": "Saipan",
     "region": "Oceania",
-    "subregion": "Micronesia"
+    "subregion": "Micronesia",
+    "flag": "https://restcountries.eu/data/mnp.svg"
   },
   {
-    "id": "CIinAV9dnqeqU1ElfV6RC",
+    "id": "xj4cJVJLzlfEwmB0DVm95",
     "name": "Norway",
+    "capital": "Oslo",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/nor.svg"
   },
   {
-    "id": "ykfNbRT1hKTlDuIkBE6L7",
+    "id": "bZrPP4ivj57xI5qm27WZA",
     "name": "Oman",
+    "capital": "Muscat",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/omn.svg"
   },
   {
-    "id": "fyypcg4JSR3sSm9ucMvVY",
+    "id": "HpWsQN1gaxiv-FOe_GfWJ",
     "name": "Pakistan",
+    "capital": "Islamabad",
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "flag": "https://restcountries.eu/data/pak.svg"
   },
   {
-    "id": "2ULle_aBG0nl8EnehMqSx",
+    "id": "HsvH6_VATNEZQGjVK3SDo",
     "name": "Palau",
+    "capital": "Ngerulmud",
     "region": "Oceania",
-    "subregion": "Micronesia"
+    "subregion": "Micronesia",
+    "flag": "https://restcountries.eu/data/plw.svg"
   },
   {
-    "id": "HA-PVBi_iKF3ygYkORSHM",
+    "id": "adp53Qh2VlYOCO2A-VhgU",
     "name": "Palestine, State of",
+    "capital": "Ramallah",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/pse.svg"
   },
   {
-    "id": "sJw2V8qOQYvBLv7MRw8hv",
+    "id": "gJa6z6lRabWXf8gjtfHZD",
     "name": "Panama",
+    "capital": "Panama City",
     "region": "Americas",
-    "subregion": "Central America"
+    "subregion": "Central America",
+    "flag": "https://restcountries.eu/data/pan.svg"
   },
   {
-    "id": "eyXBEto9WhTNO4slB97q1",
+    "id": "WSpsMh8Lw3qldNlZYLPiv",
     "name": "Papua New Guinea",
+    "capital": "Port Moresby",
     "region": "Oceania",
-    "subregion": "Melanesia"
+    "subregion": "Melanesia",
+    "flag": "https://restcountries.eu/data/png.svg"
   },
   {
-    "id": "p2zvgD4E3KWZd0SNYainE",
+    "id": "iCM1koFbs4Q8Skcpoc095",
     "name": "Paraguay",
+    "capital": "Asunción",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/pry.svg"
   },
   {
-    "id": "JTTS9irvK0xfbTNUslg7o",
+    "id": "8r1D3S8WN3XHaFqqxq5s8",
     "name": "Peru",
+    "capital": "Lima",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/per.svg"
   },
   {
-    "id": "GPbDNLiuwP_FTEf7LzAht",
+    "id": "73jUEggeXKDAojOFpRR3z",
     "name": "Philippines",
+    "capital": "Manila",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/phl.svg"
   },
   {
-    "id": "hKTCwHFihDN6quIhGOzLe",
+    "id": "9QHiCTcfR8Ap-y59magck",
     "name": "Pitcairn",
+    "capital": "Adamstown",
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "flag": "https://restcountries.eu/data/pcn.svg"
   },
   {
-    "id": "szIacqmY1OiU0L8tarO_Q",
+    "id": "H8KDWCjjCRizLZdqg0dU0",
     "name": "Poland",
+    "capital": "Warsaw",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/pol.svg"
   },
   {
-    "id": "Ry0nqELRbZWc5F7HucrEw",
+    "id": "5t673dm85Ph-ZCxGfiGyQ",
     "name": "Portugal",
+    "capital": "Lisbon",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/prt.svg"
   },
   {
-    "id": "GqmcJYqpbJ2YKVQP4ZUmW",
+    "id": "yxeDuveOG-nyrlfvAErb7",
     "name": "Puerto Rico",
+    "capital": "San Juan",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/pri.svg"
   },
   {
-    "id": "LEYCjwIe9Wo7nQPjejC65",
+    "id": "2sQcWUSDj4T3qoGRV2xPm",
     "name": "Qatar",
+    "capital": "Doha",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/qat.svg"
   },
   {
-    "id": "tchxotqapXXpmx7Vgcy7f",
+    "id": "8-PtyGihxdVgsffCqGh1C",
     "name": "Republic of Kosovo",
+    "capital": "Pristina",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/kos.svg"
   },
   {
-    "id": "lIApeegoyTplwS6Yq_neO",
+    "id": "JqoVRNiPZRixBQM_OH6MM",
     "name": "Réunion",
+    "capital": "Saint-Denis",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/reu.svg"
   },
   {
-    "id": "eW2BPZBtrOjOvKCB_7s-0",
+    "id": "k3m9cJNkfynzW0ekYWuVP",
     "name": "Romania",
+    "capital": "Bucharest",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/rou.svg"
   },
   {
-    "id": "3brO8OrnrhnV8m9-5snmN",
+    "id": "NHV3yfcd39fol6GLTvSf8",
     "name": "Russian Federation",
+    "capital": "Moscow",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/rus.svg"
   },
   {
-    "id": "xeukhnbhnjBV4yJJIIqTi",
+    "id": "iXxOZCffNpsHxLiXF7_2z",
     "name": "Rwanda",
+    "capital": "Kigali",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/rwa.svg"
   },
   {
-    "id": "9ijl39-M_-3jwassqNvC4",
+    "id": "Y1YcICD5jHeBd_GNKPNWj",
     "name": "Saint Barthélemy",
+    "capital": "Gustavia",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/blm.svg"
   },
   {
-    "id": "-ubxZyCbuWY-kBZnN1wW0",
+    "id": "pegwR2-1tEWqTnaG84bIb",
     "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "capital": "Jamestown",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/shn.svg"
   },
   {
-    "id": "0Uivoh5xIioS4PQrHWYvi",
+    "id": "v80oiA947fDMP6R_vW_FF",
     "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/kna.svg"
   },
   {
-    "id": "UpDScMD1X6WtZNkNtzWRp",
+    "id": "Hs_wCI6X24hhdGosTjWZN",
     "name": "Saint Lucia",
+    "capital": "Castries",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/lca.svg"
   },
   {
-    "id": "kbhfmW8sH_ZQvDX7V4dJU",
+    "id": "U4BVeJtap3vPgDqeEQFj3",
     "name": "Saint Martin (French part)",
+    "capital": "Marigot",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/maf.svg"
   },
   {
-    "id": "X202od4_M3zzF66tYDH68",
+    "id": "uhE8vrVgxYQT36fcc6oms",
     "name": "Saint Pierre and Miquelon",
+    "capital": "Saint-Pierre",
     "region": "Americas",
-    "subregion": "Northern America"
+    "subregion": "Northern America",
+    "flag": "https://restcountries.eu/data/spm.svg"
   },
   {
-    "id": "cL7otlgYktUSSgyQf5roM",
+    "id": "mYRrDcI5LnoxoNbyX9LqA",
     "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/vct.svg"
   },
   {
-    "id": "80_oognH5ZV-1N_P1XFhC",
+    "id": "D9ndkmGXDdCadJOB78dv4",
     "name": "Samoa",
+    "capital": "Apia",
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "flag": "https://restcountries.eu/data/wsm.svg"
   },
   {
-    "id": "2ntz90m9E_yB2abPZILio",
+    "id": "drsYdcabQBAxPDtIdCxGZ",
     "name": "San Marino",
+    "capital": "City of San Marino",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/smr.svg"
   },
   {
-    "id": "UVsCZsJ-oyuUtN6GmZ7mT",
+    "id": "YIMBcecYvk5tKULF9gYTL",
     "name": "Sao Tome and Principe",
+    "capital": "São Tomé",
     "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Middle Africa",
+    "flag": "https://restcountries.eu/data/stp.svg"
   },
   {
-    "id": "1RxGlHnaNduewwTJRd-3a",
+    "id": "Df8dv2JFHN2iFEYoV_oUu",
     "name": "Saudi Arabia",
+    "capital": "Riyadh",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/sau.svg"
   },
   {
-    "id": "ozAxyV_BF4g_5neAFRBY-",
+    "id": "V4TlTAZr_cminINT7muuH",
     "name": "Senegal",
+    "capital": "Dakar",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/sen.svg"
   },
   {
-    "id": "OyhaVxLnSYa0cbfM5AN9m",
+    "id": "ZvM25ESoCxhFv1Xrtg-5L",
     "name": "Serbia",
+    "capital": "Belgrade",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/srb.svg"
   },
   {
-    "id": "u_Km6F3mBjCmL2RA7MUzG",
+    "id": "VB55zuFAtG0uq6kqOHiFb",
     "name": "Seychelles",
+    "capital": "Victoria",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/syc.svg"
   },
   {
-    "id": "_f6hJG8a64Tmaxo2wxSsS",
+    "id": "jIZzaDCvVKF_B9F9CLEIK",
     "name": "Sierra Leone",
+    "capital": "Freetown",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/sle.svg"
   },
   {
-    "id": "n6ZF2h_1A-D97_qu-ZxYv",
+    "id": "QFuRsiQNkj0Wf6LLYSA3F",
     "name": "Singapore",
+    "capital": "Singapore",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/sgp.svg"
   },
   {
-    "id": "xUTyDzhV-muo8SqApa5ck",
+    "id": "Cfiks9OWqB3wXai_z07hi",
     "name": "Sint Maarten (Dutch part)",
+    "capital": "Philipsburg",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/sxm.svg"
   },
   {
-    "id": "mEo6WDSLzIlm27DT-SHPH",
+    "id": "9HndMbCTPiw9eyFG9gyUu",
     "name": "Slovakia",
+    "capital": "Bratislava",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/svk.svg"
   },
   {
-    "id": "HD36sk86ijsRhk7hbvv4a",
+    "id": "AnIST6ZIPBhG26DWV_CWx",
     "name": "Slovenia",
+    "capital": "Ljubljana",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/svn.svg"
   },
   {
-    "id": "TVjfZonnUhauRYHVMD5fb",
+    "id": "SnJqUYhj8r90k3XmBMzi-",
     "name": "Solomon Islands",
+    "capital": "Honiara",
     "region": "Oceania",
-    "subregion": "Melanesia"
+    "subregion": "Melanesia",
+    "flag": "https://restcountries.eu/data/slb.svg"
   },
   {
-    "id": "ZmK3soFlwED2jl4lNgfER",
+    "id": "VuU6Bz7cW-IFjDbOsIX72",
     "name": "Somalia",
+    "capital": "Mogadishu",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/som.svg"
   },
   {
-    "id": "HDZsRHBaa8m5GlCAM_Y8W",
+    "id": "s3F7eBylVRP3_FvZqaE6h",
     "name": "South Africa",
+    "capital": "Pretoria",
     "region": "Africa",
-    "subregion": "Southern Africa"
+    "subregion": "Southern Africa",
+    "flag": "https://restcountries.eu/data/zaf.svg"
   },
   {
-    "id": "28Z9B-w5E3tTzCK5QGiID",
+    "id": "ZS0MfrhQKhHiblIh49Umy",
     "name": "South Georgia and the South Sandwich Islands",
+    "capital": "King Edward Point",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/sgs.svg"
   },
   {
-    "id": "7rmoV24HRVfHPZx8NiYxw",
+    "id": "RezGf476cqSRstAYdk_eq",
     "name": "Korea (Republic of)",
+    "capital": "Seoul",
     "region": "Asia",
-    "subregion": "Eastern Asia"
+    "subregion": "Eastern Asia",
+    "flag": "https://restcountries.eu/data/kor.svg"
   },
   {
-    "id": "TWTJSXMKV0p70ZpctCD_p",
+    "id": "t4xPZ6LukDDqeVYk-JSd1",
     "name": "South Sudan",
+    "capital": "Juba",
     "region": "Africa",
-    "subregion": "Middle Africa"
+    "subregion": "Middle Africa",
+    "flag": "https://restcountries.eu/data/ssd.svg"
   },
   {
-    "id": "idhM_9sxEZCugTd2_6GsU",
+    "id": "JDdCmn-sj1bPOX_sbDfjy",
     "name": "Spain",
+    "capital": "Madrid",
     "region": "Europe",
-    "subregion": "Southern Europe"
+    "subregion": "Southern Europe",
+    "flag": "https://restcountries.eu/data/esp.svg"
   },
   {
-    "id": "4LhLjfXaNx3w7OZQmE6NB",
+    "id": "AgFt2bKdOWR8_52iop_kD",
     "name": "Sri Lanka",
+    "capital": "Colombo",
     "region": "Asia",
-    "subregion": "Southern Asia"
+    "subregion": "Southern Asia",
+    "flag": "https://restcountries.eu/data/lka.svg"
   },
   {
-    "id": "bVWUGSdlwyAAJtLiI7KVS",
+    "id": "VtIHqn8uU26nFO1VBP-sn",
     "name": "Sudan",
+    "capital": "Khartoum",
     "region": "Africa",
-    "subregion": "Northern Africa"
+    "subregion": "Northern Africa",
+    "flag": "https://restcountries.eu/data/sdn.svg"
   },
   {
-    "id": "ldSlmmIwzVMr5OW6imRw5",
+    "id": "aSC4QiS4OPFb8o4vewyLR",
     "name": "Suriname",
+    "capital": "Paramaribo",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/sur.svg"
   },
   {
-    "id": "egL0ymbwinjaJtR6AraMe",
+    "id": "msNUUpTzTO-RYSfFMMjL4",
     "name": "Svalbard and Jan Mayen",
+    "capital": "Longyearbyen",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/sjm.svg"
   },
   {
-    "id": "s1wZ09IsfHHykvu1YKgF7",
+    "id": "2Y5qFIlJQ-9_qx7KoQibk",
     "name": "Swaziland",
+    "capital": "Lobamba",
     "region": "Africa",
-    "subregion": "Southern Africa"
+    "subregion": "Southern Africa",
+    "flag": "https://restcountries.eu/data/swz.svg"
   },
   {
-    "id": "V9LaaCNI-6xEowVKeaTSN",
+    "id": "cIxGPqX2kYzdD8lK1DLp5",
     "name": "Sweden",
+    "capital": "Stockholm",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/swe.svg"
   },
   {
-    "id": "XyhzIIyeXQDgLgWkYdq1K",
+    "id": "fHCsBPEJTab0zYmCijIv1",
     "name": "Switzerland",
+    "capital": "Bern",
     "region": "Europe",
-    "subregion": "Western Europe"
+    "subregion": "Western Europe",
+    "flag": "https://restcountries.eu/data/che.svg"
   },
   {
-    "id": "I_7fEuAy2aTBdIGfz9ZBj",
+    "id": "3qzn1AQirL3qBK0TUJMMT",
     "name": "Syrian Arab Republic",
+    "capital": "Damascus",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/syr.svg"
   },
   {
-    "id": "VTphiKKzLoCLhKDCzmKSB",
+    "id": "zj4sxI0A1uq65LAGK7MYO",
     "name": "Taiwan",
+    "capital": "Taipei",
     "region": "Asia",
-    "subregion": "Eastern Asia"
+    "subregion": "Eastern Asia",
+    "flag": "https://restcountries.eu/data/twn.svg"
   },
   {
-    "id": "UCWAFbxNAE2SETlzSN_6r",
+    "id": "dyqS9OM_JQhMCwEuQgOn7",
     "name": "Tajikistan",
+    "capital": "Dushanbe",
     "region": "Asia",
-    "subregion": "Central Asia"
+    "subregion": "Central Asia",
+    "flag": "https://restcountries.eu/data/tjk.svg"
   },
   {
-    "id": "YF3HS4CnGU2xslrfWQEuH",
+    "id": "YWSlRPPzhTTQjGWDJk2uW",
     "name": "Tanzania, United Republic of",
+    "capital": "Dodoma",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/tza.svg"
   },
   {
-    "id": "FLExh0R43v6sa68ERB0eF",
+    "id": "75VXUh4zrEY335FI9KUIB",
     "name": "Thailand",
+    "capital": "Bangkok",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/tha.svg"
   },
   {
-    "id": "K1iFUoQ9UD_PVZdraXzIK",
+    "id": "t0UE5bVq4xEilvE5_5NqA",
     "name": "Timor-Leste",
+    "capital": "Dili",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/tls.svg"
   },
   {
-    "id": "jCWaCwiBjYU-DMXMXOUIE",
+    "id": "nafgbgs-qj7cyYzV7NR2r",
     "name": "Togo",
+    "capital": "Lomé",
     "region": "Africa",
-    "subregion": "Western Africa"
+    "subregion": "Western Africa",
+    "flag": "https://restcountries.eu/data/tgo.svg"
   },
   {
-    "id": "17EzFEmyS4WskJkpnGH6Q",
+    "id": "-ufI0Ah3ZjVEn8ydra9Qp",
     "name": "Tokelau",
+    "capital": "Fakaofo",
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "flag": "https://restcountries.eu/data/tkl.svg"
   },
   {
-    "id": "aRXFsRR8TM2YIA2TFQF_-",
+    "id": "E1IdMN_Ee9nJ5xBt4qxFr",
     "name": "Tonga",
+    "capital": "Nuku'alofa",
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "flag": "https://restcountries.eu/data/ton.svg"
   },
   {
-    "id": "Ep3HC7P9bXUJwDT9xUYx3",
+    "id": "8luBFPnCazuUc-YhChoyf",
     "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/tto.svg"
   },
   {
-    "id": "J56_XCGdOf76w-cLLdkF6",
+    "id": "Yahm2FcNsDMprQhsQ0x5p",
     "name": "Tunisia",
+    "capital": "Tunis",
     "region": "Africa",
-    "subregion": "Northern Africa"
+    "subregion": "Northern Africa",
+    "flag": "https://restcountries.eu/data/tun.svg"
   },
   {
-    "id": "We-5N5QHENOJZsLn2aTeb",
+    "id": "rJZSuUx2uDrgBWTmew_HR",
     "name": "Turkey",
+    "capital": "Ankara",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/tur.svg"
   },
   {
-    "id": "nMaH65LRG-L-NE2Pyi1ug",
+    "id": "qco904P5lug60T8DGmoWK",
     "name": "Turkmenistan",
+    "capital": "Ashgabat",
     "region": "Asia",
-    "subregion": "Central Asia"
+    "subregion": "Central Asia",
+    "flag": "https://restcountries.eu/data/tkm.svg"
   },
   {
-    "id": "ldQIfvrmDriRlRsOLcU-k",
+    "id": "igJyL9EDvwwpA3ATJS6dE",
     "name": "Turks and Caicos Islands",
+    "capital": "Cockburn Town",
     "region": "Americas",
-    "subregion": "Caribbean"
+    "subregion": "Caribbean",
+    "flag": "https://restcountries.eu/data/tca.svg"
   },
   {
-    "id": "smUAqJ_YdLsYalHC8btVZ",
+    "id": "WeQElHSPRD7N4il9Zy5lH",
     "name": "Tuvalu",
+    "capital": "Funafuti",
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "flag": "https://restcountries.eu/data/tuv.svg"
   },
   {
-    "id": "MeAy-zEop4h3evj9y4B5K",
+    "id": "n_27nUIvaiphtHBgOqO3r",
     "name": "Uganda",
+    "capital": "Kampala",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/uga.svg"
   },
   {
-    "id": "Vemx5rct5TKW5pogpnPRi",
+    "id": "gfpTchfPg9xcMGgXqpfAY",
     "name": "Ukraine",
+    "capital": "Kiev",
     "region": "Europe",
-    "subregion": "Eastern Europe"
+    "subregion": "Eastern Europe",
+    "flag": "https://restcountries.eu/data/ukr.svg"
   },
   {
-    "id": "LlfRRknsCPnJr87HXn33q",
+    "id": "ct9r9r5BtJldIWjH1iOGO",
     "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/are.svg"
   },
   {
-    "id": "umjahaDjvTVLV7jpOOlg_",
+    "id": "o9nw70hVRE7ZRkncLDykY",
     "name": "United Kingdom of Great Britain and Northern Ireland",
+    "capital": "London",
     "region": "Europe",
-    "subregion": "Northern Europe"
+    "subregion": "Northern Europe",
+    "flag": "https://restcountries.eu/data/gbr.svg"
   },
   {
-    "id": "U-O2R2XlC2ecYFTUFR6FR",
+    "id": "SsDUcPdTnrsxWOA7Nwuxc",
     "name": "United States of America",
+    "capital": "Washington, D.C.",
     "region": "Americas",
-    "subregion": "Northern America"
+    "subregion": "Northern America",
+    "flag": "https://restcountries.eu/data/usa.svg"
   },
   {
-    "id": "WOEFDYLF1_xjcnxHX_GWy",
+    "id": "v0UH5_IEsOY_j0Ywdh7Gw",
     "name": "Uruguay",
+    "capital": "Montevideo",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/ury.svg"
   },
   {
-    "id": "mo4i0gdPi2KFXgD70E0bm",
+    "id": "5oj51q9k5dcpQUofAXjcf",
     "name": "Uzbekistan",
+    "capital": "Tashkent",
     "region": "Asia",
-    "subregion": "Central Asia"
+    "subregion": "Central Asia",
+    "flag": "https://restcountries.eu/data/uzb.svg"
   },
   {
-    "id": "fTtRcSU9NJWkNbB6RITTW",
+    "id": "93co0f572W1yLyjT0n0n_",
     "name": "Vanuatu",
+    "capital": "Port Vila",
     "region": "Oceania",
-    "subregion": "Melanesia"
+    "subregion": "Melanesia",
+    "flag": "https://restcountries.eu/data/vut.svg"
   },
   {
-    "id": "Otge5YbUW4rfY8u8tQ179",
+    "id": "RYJcUVyIIopv4EFscci75",
     "name": "Venezuela (Bolivarian Republic of)",
+    "capital": "Caracas",
     "region": "Americas",
-    "subregion": "South America"
+    "subregion": "South America",
+    "flag": "https://restcountries.eu/data/ven.svg"
   },
   {
-    "id": "rmQPNfMlFPBmOQmcRL5ly",
+    "id": "fFexF-D7GzhScGBkHQ_x0",
     "name": "Viet Nam",
+    "capital": "Hanoi",
     "region": "Asia",
-    "subregion": "South-Eastern Asia"
+    "subregion": "South-Eastern Asia",
+    "flag": "https://restcountries.eu/data/vnm.svg"
   },
   {
-    "id": "3wBN_J6WA0Qx24QC3yOYC",
+    "id": "XAf_98-9jmgPPvj9EV2AU",
     "name": "Wallis and Futuna",
+    "capital": "Mata-Utu",
     "region": "Oceania",
-    "subregion": "Polynesia"
+    "subregion": "Polynesia",
+    "flag": "https://restcountries.eu/data/wlf.svg"
   },
   {
-    "id": "scBfJt33Vuuro2QO5KKC4",
+    "id": "U6hkf_hQQVPsC6IVHMCHw",
     "name": "Western Sahara",
+    "capital": "El Aaiún",
     "region": "Africa",
-    "subregion": "Northern Africa"
+    "subregion": "Northern Africa",
+    "flag": "https://restcountries.eu/data/esh.svg"
   },
   {
-    "id": "vRigIArr4OweCF7BWuge0",
+    "id": "IPaWSjYL5GMVp65CCBLDi",
     "name": "Yemen",
+    "capital": "Sana'a",
     "region": "Asia",
-    "subregion": "Western Asia"
+    "subregion": "Western Asia",
+    "flag": "https://restcountries.eu/data/yem.svg"
   },
   {
-    "id": "Ah4cEbPj8d3govLyLu_W0",
+    "id": "GMhz_wOaXruPMP73g42Oa",
     "name": "Zambia",
+    "capital": "Lusaka",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/zmb.svg"
   },
   {
-    "id": "PBlKrw0lz_aw8FbTEg0qp",
+    "id": "8KJ1SqnIf5io0E2byG8DH",
     "name": "Zimbabwe",
+    "capital": "Harare",
     "region": "Africa",
-    "subregion": "Eastern Africa"
+    "subregion": "Eastern Africa",
+    "flag": "https://restcountries.eu/data/zwe.svg"
   }
 ]

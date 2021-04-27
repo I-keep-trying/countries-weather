@@ -3,7 +3,6 @@ import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import extendTheme from './theme.js'
-//import ErrorBoundary from './ErrorBoundary'
 
 ReactDOM.render(
   <ChakraProvider theme={extendTheme}>

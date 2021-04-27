@@ -14,10 +14,20 @@ import {
   Select,
   Text,
   Stack,
-  HStack,
   Flex,
+  Box,
+  Spacer,
+  Grid,
+  HStack,
+  VStack,
+  Code,
+  Link,
+  Center,
+  Container,
+  SimpleGrid,
 } from '@chakra-ui/react'
 import Country from '../pages/Country'
+import Logo from '../Logo'
 
 const Countries = ({
   countries,
@@ -74,47 +84,13 @@ const Countries = ({
     )
   }
 
-  const handleClick = c => {
-    setIsLoading(true)
-    setInput(c.name)
-  }
-
   return (
     <>
-      <HStack>
-        <Table>
-          <Tbody>
-            {countries.map(c => {
-              return (
-                <Tr key={c.id} style={{ backgroundColor: 'blue' }}>
-                  <Td>{c.name}</Td>
+      <Flex width="Full" align="center" justifyContent="center">
+        <Box w="100%" className="page" h="10" bg="yellow.500"></Box>
 
-                  <Td isNumeric>
-                    <Button
-                      size="xs"
-                      variant="ghost"
-                      onClick={() => handleClick(c)}
-                    >
-                      details
-                    </Button>
-                  </Td>
-                </Tr>
-              )
-            })}
-          </Tbody>
-        </Table>
-      </HStack>
-      <HStack >
-        <Table>
-          <Tbody>
-            <Tr style={{ backgroundColor: 'pink.100' }}>
-              <Td isNumeric>
-               right side
-              </Td>
-            </Tr>
-          </Tbody>
-        </Table>
-      </HStack>
+        <Box w="100%" h="10" bg="blue.500"></Box>
+      </Flex>
     </>
   )
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Container } from '@chakra-ui/react'
+import { Grid } from '@chakra-ui/react'
 import countriesList from './countriesList'
 import regions from './regions'
 import Header from './components/Header'
@@ -48,17 +48,17 @@ const App = () => {
     !isLoading ? setIsLoading(true) : isLoading
     setInput(event.target.value)
   }
-  
+
   return (
     <>
-      <Header
-        input={input}
-        setInput={setInput}
-        setRegion={setRegion}
-        setSubRegion={setSubRegion}
-        handleChange={handleChange}
-      />
-      <Container maxW="container.md" id="App container" mt={100}>
+      <Grid>
+        <Header
+          input={input}
+          setInput={setInput}
+          setRegion={setRegion}
+          setSubRegion={setSubRegion}
+          handleChange={handleChange}
+        />
         <Countries
           regions={regions}
           countries={filterBySubregion}
@@ -69,9 +69,9 @@ const App = () => {
           isLoading={isLoading}
           setIsLoading={setIsLoading}
         />
-      </Container>
 
-      <Footer />
+        <Footer />
+      </Grid>
     </>
   )
 }

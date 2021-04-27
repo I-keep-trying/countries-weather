@@ -10,6 +10,18 @@ import {
   Input,
   InputRightElement,
   InputGroup,
+  VStack,
+  useDisclosure,
+  Button,
+  Drawer,
+  DrawerBody,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
+  Skeleton,
+  SimpleGrid,
+  Container,
+  Text
 } from '@chakra-ui/react'
 import { SunIcon, MoonIcon, SearchIcon } from '@chakra-ui/icons'
 
@@ -37,25 +49,36 @@ export const ThemeToggle = () => {
 }
 
 const Filter = ({ input, onChange }) => {
-  const inputRef = useRef()
+  /*   const inputRef = useRef()
 
   useEffect(() => {
     inputRef.current.focus()
-  })
+  }) */
 
   return (
-    <Box ml={6}>
-      <form>
-        <InputGroup size="sm">
+    <Box ml={6} w="30%" bg="yellow.500">
+    <InputGroup size="sm">
           <Input
-            ref={inputRef}
+            size="sm"
+            // ref={inputRef}
             value={input}
             onChange={onChange}
             placeholder="Start typing to search"
           />
           <InputRightElement>{<SearchIcon />}</InputRightElement>
         </InputGroup>
-      </form>
+      {/*  <form>
+        <InputGroup size="sm">
+          <Input
+            size="sm"
+            // ref={inputRef}
+            value={input}
+            onChange={onChange}
+            placeholder="Start typing to search"
+          />
+          <InputRightElement>{<SearchIcon />}</InputRightElement>
+        </InputGroup>
+      </form> */}
     </Box>
   )
 }
@@ -109,9 +132,9 @@ export const Navbar = ({
         h="10%"
         shadow="base"
       >
-        <Box ml={4} w="40%">
-          <Heading
-            fontSize={{ base: '14px', md: '30px', lg: '40px' }}
+        <Box ml={4} w="40%" bg="blue.500">
+          <Text
+            fontSize="lg"
             as="button"
             onClick={reset}
             variant={useColorModeValue(
@@ -120,7 +143,7 @@ export const Navbar = ({
             )}
           >
             World Countries
-          </Heading>
+          </Text>
         </Box>
         <Filter input={input} onChange={handleChange} />
         <Spacer />

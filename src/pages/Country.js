@@ -122,21 +122,22 @@ const Country = ({
         </TabList>
 
         <TabPanels>
-          <TabPanel mb={12}>
+          <TabPanel id="tab panel" mb={12}>
             <Box
+              id="details Box"
               borderWidth="3px"
               shadow="md"
               borderRadius="20px"
               textAlign="left"
             >
-              <VStack display={{ sm: 'flex' }} spacing={4}>
+              <VStack id="details VStack" display={{ sm: 'flex' }} spacing={4}>
                 <Image
                   borderTopLeftRadius="20px"
                   borderTopRightRadius="20px"
                   src={country.flag}
                   alt="country flag"
                 />
-                <Table>
+                <Table size="sm" id="Table">
                   <Thead>
                     <Tr>
                       <Th>
